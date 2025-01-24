@@ -1,0 +1,92 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import AuthorInfo from '../../components/AuthorInfo.astro';
+import { articles } from '../../data/articles';
+
+export function getStaticPaths() {
+    return Object.entries(articles).map(([slug, article]) => ({
+        params: { slug },
+        props: { article }
+    }));
+}
+
+const { article } = Astro.props;
+---
+
+<Layout title={article.title}>
+    <article class="full-article">
+        <header>
+            <div class="cover-image">
+                <img src={article.coverImage} alt={article.title} />
+            </div>
+            <h1>{article.title}</h1>
+            <AuthorInfo author={article.author} publishDate={article.publishDate} />
+        </header>
+        <div class="content" set:html={article.content} />
+        <footer>
+            <a href="/" class="back-link">&larr; Back to Latest News</a>
+            <a href="/archive" class="archive-link">Browse Archive</a>
+        </footer>
+    </article>
+</Layout>
+
+<style>
+    .full-article {
+        padding: 2rem 0;
+    }
+
+    header {
+        margin-bottom: 2rem;
+    }
+
+    .cover-image {
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 12px;
+        margin-bottom: 1.5rem;
+    }
+
+    .cover-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin: 0.5rem 0;
+        background: #ffb800;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .content {
+        color: #ccc;
+        line-height: 1.8;
+    }
+
+    .content p {
+        margin-bottom: 1.5rem;
+    }
+
+    footer {
+        margin-top: 3rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .back-link, .archive-link {background: #ffb800;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .back-link:hover, .archive-link:hover {
+        color: rgb(var(--accent-light));
+    }
+</style>

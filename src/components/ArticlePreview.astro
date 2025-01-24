@@ -1,0 +1,117 @@
+---
+interface Props {
+    title: string;
+    excerpt: string;
+    slug: string;
+    coverImage: string;
+    isLatestNews: boolean;
+}
+
+const { title, excerpt, slug, coverImage, isLatestNews } = Astro.props;
+---
+
+<article class="article-preview">
+    <div class="image-container">
+        <img src={coverImage} alt={title} />
+        {isLatestNews && <span class="latest-badge">UPDATE</span>}
+    </div>
+    <div class="content">
+        <h2>{title}</h2>
+        <p>{excerpt}</p>
+        <a href={`/articles/${slug}`}>Read More &rarr;</a>
+    </div>
+</article>
+
+<style>
+    .article-preview {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 1.5rem 0;
+        transition: transform 0.2s ease;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .article-preview:hover {
+        transform: translateX(10px);
+    }
+
+    .image-container {
+        flex: 0 0 200px;
+        height: 150px;
+        overflow: hidden;
+        border-radius: 8px;
+        position: relative;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+    .article-preview:hover .image-container img {
+        transform: scale(1.05);
+    }
+
+    .latest-badge {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+        background: var(--gdp-gold);
+        color: var(--gdp-blue);
+        padding: 0.25rem 0.75rem;
+        border-radius: 20px;
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+
+    .content {
+        flex: 1;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin: 0 0 0.5rem;
+        color: rgb(var(--accent-light));
+    }
+
+    p {
+        color: #ccc;
+        margin: 0.5rem 0;
+        line-height: 1.6;
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 0.5rem;
+        color: var(--gdp-gold);
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    a:hover {
+        color: var(--gdp-gold);
+    }
+    @media (max-width: 768px) {
+        .article-preview {
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center content */
+            gap: 1rem; /* Adjust spacing */
+        }
+
+        .image-container {
+            flex: 0 0 auto; /* Allow the image to resize naturally */
+            width: 100%; /* Full width */
+            height: auto; /* Adjust height proportionally */
+        }
+
+        .image-container img {
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .content {
+            text-align: center; /* Center text content */
+        }
+    }
+</style>

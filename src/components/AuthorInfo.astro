@@ -1,0 +1,67 @@
+---
+interface Props {
+    author: {
+        name: string;
+        avatar: string;
+        role: string;
+    };
+    publishDate: string;
+}
+
+const { author, publishDate } = Astro.props;
+---
+
+<div class="author-info">
+    <img src={author.avatar} alt={author.name} class="avatar" />
+    <div class="details">
+        <h3>{author.name}</h3>
+        <p class="role">{author.role}</p>
+        <time datetime={publishDate}>
+            {new Date(publishDate).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            })}
+        </time>
+    </div>
+</div>
+
+<style>
+    .author-info {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin: 2rem 0;
+        padding: 1rem;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 8px;
+    }
+
+    .avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .details {
+        flex: 1;
+    }
+
+    h3 {
+        margin: 0;
+        color: rgb(var(--accent-light));
+        font-size: 1.1rem;
+    }
+
+    .role {
+        margin: 0.2rem 0;
+        color: #888;
+        font-size: 0.9rem;
+    }
+
+    time {
+        font-size: 0.875rem;
+        color: #666;
+    }
+</style>

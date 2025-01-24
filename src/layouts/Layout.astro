@@ -1,0 +1,96 @@
+---
+import Header from '../components/Header.astro';
+import Navigation from '../components/Navigation.astro';
+import PageDate from '../components/PageDate.astro';
+
+interface Props {
+    title: string;
+}
+
+
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Daily News Blog" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>InkSpace</title>
+    </head>
+    <body>
+        <Header />
+        <PageDate />
+        <Navigation />
+        <main>
+            <slot />
+        </main>
+    </body>
+</html>
+
+<style is:global>
+    :root {
+        --accent: 136, 58, 234;
+        --accent-light: 224, 204, 250;
+        --accent-dark: 49, 10, 101;
+        --accent-gradient: linear-gradient(
+            45deg,
+            rgb(var(--accent)),
+            rgb(var(--accent-light)) 30%,
+            white 60%
+        );
+        --gdp-blue: #1A2B4D;
+        --gdp-dark-blue: #0F1A31;
+        --gdp-gold: #FFB800;
+        --gdp-gradient: linear-gradient(
+            45deg,
+            var(--gdp-blue),
+            var(--gdp-gold),
+            var(--gdp-blue)
+        );
+        
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-family: system-ui, sans-serif;
+        background: #13151a;
+        color: #fff;
+    }
+
+    body {
+        min-height: 100vh;
+    }
+
+    main {
+        max-width: 33.333%;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin: 1.5rem 0;
+    }
+
+    @media (max-width: 1200px) {
+        main {
+            max-width:50%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        main {
+            max-width: 100%;
+        }
+    }
+    
+</style>

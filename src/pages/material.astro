@@ -1,0 +1,42 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ArticlePreview from '../components/ArticlePreview.astro';
+import { articles } from '../data/articles';
+
+// Filter and sort articles
+const filteredArticles = Object.entries(articles)
+    .filter(([slug]) => ['csbs', 'csds', 'csai'].includes(slug)) // Filter by slug
+    .map(([slug, article]) => ({
+        slug,
+        ...article,
+    }))
+    .sort((a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime());
+---
+
+<Layout title="Selected Articles">
+    <section class="articles">
+        {filteredArticles.map(article => (
+            <ArticlePreview 
+                title={article.title}
+                excerpt={article.excerpt}
+                slug={article.slug}
+                coverImage={article.coverImage}
+                isLatestNews={article.isLatestNews}
+                
+            />
+        ))}
+    </section>
+</Layout>
+
+<style>
+    .articles {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .articles > *:hover {
+        transform: translateY(-4px);
+        transition: transform 0.2s ease;
+    }
+</style>

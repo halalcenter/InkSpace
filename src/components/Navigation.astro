@@ -1,0 +1,38 @@
+---
+const currentPath = Astro.url.pathname;
+---
+
+<nav class="navigation">
+    <a href="/archive" class={currentPath === '/archive' ? 'active' : ''}>ARTICLES</a>
+    <a href="/" class={currentPath === '/' ? 'active' : ''}>UPDATES</a>
+    <a href="/material" class={currentPath === '/material' ? 'active' : ''}>NOTES</a>
+</nav>
+
+<style>
+    .navigation {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        padding: 1rem 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+        transition: all 0.2s ease;
+    }
+
+    a:hover {
+        color: rgb(var(--accent-light));
+        background: rgba(255, 255, 255, 0.05);
+    }
+
+    a.active {
+        color: rgb(var(--accent-light));
+        background: rgba(var(--accent), 0.1);
+    }
+</style>

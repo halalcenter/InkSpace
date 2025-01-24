@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ArticlePreview from '../components/ArticlePreview.astro';
+import { articles } from '../data/articles';
+
+const latestArticles = Object.entries(articles)
+    .map(([slug, article]) => ({
+        ...article,
+        slug
+    }))
+    .filter(article => article.isLatestNews)
+    .sort((a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime());
+---
+
+<Layout title="Daily News">
+    <section class="articles">
+        {latestArticles.map(article => (
+            <ArticlePreview 
+                title={article.title}
+                excerpt={article.excerpt}
+                slug={article.slug}
+                coverImage={article.coverImage}
+                isLatestNews={article.isLatestNews}
+            />
+        ))}
+    </section>
+</Layout>
+
+<style>
+    .articles {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+</style>
