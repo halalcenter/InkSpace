@@ -151,14 +151,14 @@ export const articles: Record<string, Article> = {
         "Google Developers Group(GDG)": {
         title: "GDG",
         excerpt: "Google Developer Groups (GDGs) bring together developers and technologists to connect, learn, and grow alongside Google's technologies and experts. These groups support innovation and growth in the tech world by providing opportunities to learn, share knowledge, and collaborate",
-        coverImage: "yt3.googleusercontent.com",
+        coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrJ20Y03jPHKxgQ2HXQ36tGm9u62u4pedvpA&s",
         contentImages: [
             "https://images.unsplash.com/photo-1676299081847-824916de6978",
             "https://images.unsplash.com/photo-1675557009875-436f7a5c6f3d"
         ],
         author: {
             name: "GDG SOIT",
-            avatar: "yt3.googleusercontent.com",
+            avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrJ20Y03jPHKxgQ2HXQ36tGm9u62u4pedvpA&s",
             role: "CLUB"
         },
         publishDate: "2025-01-20",
