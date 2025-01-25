@@ -109,7 +109,7 @@ export const articles: Record<string, Article> = {
         ],
         author: {
             name: "Aditya Dixit",
-            avatar: "/_/drive_fe/_/js/k=drive_fe.main.en.b21cGR4WoNI.2021.O/am=PKgBJASgfGwwnoAIgKAAgEwACjg/d=1/br=1/rs=AFB8gsz40qNpaRzcqvwycQn-vYGFW-Zecw/m=b",
+            avatar: "https://drive.google.com/uc?id=1SxA0garJmTa6wR67R2Vkrq3rQIcNmtER",
             role: "GDP LEAD"
         },
         publishDate: "2025-01-25",
@@ -191,14 +191,14 @@ export const articles: Record<string, Article> = {
         "Fibonacci SoIT": {
         title: "Fibonacci CLUB",
         excerpt: "Fibonacci is a rapidly growing coding community dedicated to empower developers and encouraging a culture of continuous learning",
-        coverImage: "/_/drive_fe/_/js/k=drive_fe.main.en.b21cGR4WoNI.2021.O/am=PKgBJASgfGwwnoAIgKAAgEwACjg/d=1/br=1/rs=AFB8gsz40qNpaRzcqvwycQn-vYGFW-Zecw/m=b",
+        coverImage: "https://drive.google.com/uc?id=1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l",
             contentImages: [
-            "https://drive.google.com/file/d/1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l/view",
+            "https://drive.google.com/uc?id=1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l",
             "https://repository-images.githubusercontent.com/389729275/371ba38b-8a03-4bff-916c-c3fa5396ceda"
         ],
             author: {
             name: "Fibonacci SoIT",
-            avatar: "/_/drive_fe/_/js/k=drive_fe.main.en.b21cGR4WoNI.2021.O/am=PKgBJASgfGwwnoAIgKAAgEwACjg/d=1/br=1/rs=AFB8gsz40qNpaRzcqvwycQn-vYGFW-Zecw/m=b",
+            avatar: "https://drive.google.com/uc?id=1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l",
             role: "CLUB"
         },
         publishDate: "2025-01-15",
@@ -208,7 +208,6 @@ export const articles: Record<string, Article> = {
             <pFibonacci is a rapidly growing coding community dedicated to empower developers and encouraging a culture of continuous learning.
             Fibonacci aims to provide a comprehensive learning environment where members can enhance their coding skills, exchange knowledge, and solve complex algorithmic challenges.</p>
             
-            <img src="https://drive.google.com/file/d/1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l/view" />
             <h2>GeeksforGeek</h2>
             <p>Sparking innovation through code! In partnership with Geeks for Geeks!
 
@@ -219,7 +218,7 @@ export const articles: Record<string, Article> = {
             <p>Fibonacci recently organized a highly successful event, FiboHack 1.0 The Ultimate Hackathon, proudly sponsored by GeeksForGeeks. The event brought together 100+ participants from several prestigious colleges, including LNCT, Oriental, and more. Participants tackled real-world challenges across diverse domains such as Women's Safety, Education, Sustainability, and Civic Engagement.
             The hackathon was a perfect blend of innovation, excitement, and learning, featuring an engaging webinar on 'Web Development with Al,' which provided valuable insights to all attendees. Participants not only got the chance to showcase their skills but also had amazing opportunities to connect and network with like-minded individuals, industry experts, and mentors.
             To add to the thrill, participants walked away with exciting goodies and swags, including keyboards, hoodies, t-shirts, mouse pads, medals, and trophies. The event was a resounding success, fostering collaboration, technical excellence, and an unforgettable experience for all involved.</p>
-            
+            <img src="https://drive.google.com/uc?id=1a19iZLdwif1xZG6mWDvcbgQU6KveMT75" alt="team behind fibohack1.0" />
             <h2>Upcoming Events :</h2>
             <h3>--> Web development Worksho.</h3>
             <h3>--> Weekly coding challenges.</h3>
@@ -243,7 +242,7 @@ export const articles: Record<string, Article> = {
     "code4all": {
         title: "Code4All",
         excerpt: "Official Coding Club of RGPV, we are a passionate community of programmers aiming to transform code-related anxiety and apprehension into inspiration and motivation for learning.",
-        coverImage: "/_/drive_fe/_/js/k=drive_fe.main.en.b21cGR4WoNI.2021.O/am=PKgBJASgfGwwnoAIgKAAgEwACjg/d=1/br=1/rs=AFB8gsz40qNpaRzcqvwycQn-vYGFW-Zecw/m=b",
+        coverImage: "https://drive.google.com/uc?id=1x8OwUj_Jz0NEaPRFzLkqnJTte2rcuU4g",
         contentImages: [
             "https://www.instagram.com/p/CH-lVCRpOOe/?utm_source=ig_web_copy_link",
             "http://www.hackerrank.com/c4a05",
@@ -254,7 +253,7 @@ export const articles: Record<string, Article> = {
         ],
         author: {
             name: "Aditya Dixit",
-            avatar: "/_/drive_fe/_/js/k=drive_fe.main.en.b21cGR4WoNI.2021.O/am=PKgBJASgfGwwnoAIgKAAgEwACjg/d=1/br=1/rs=AFB8gsz40qNpaRzcqvwycQn-vYGFW-Zecw/m=b",
+            avatar: "https://drive.google.com/uc?id=",
             role: "GDP LEAD"
         },
         publishDate: "2025-01-09",
