@@ -14,6 +14,28 @@ export interface Article {
 }
 
 export const articles: Record<string, Article> = {
+     "nvidia-digits": {
+        title: "NVIDIA Project DIGITS",
+        excerpt: "NVIDIA unveiled NVIDIA® Project DIGITS, Powered by the NVIDIA GB10 Grace Blackwell Superchip.",
+        coverImage: "https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/02-nvidia-logo-color-grn-500x200-4c25-p@2x.png",
+        contentImage: [
+            "https://www.nvidia.com/content/nvidiaGDC/us/en_US/project-digits/home/_jcr_content/root/responsivegrid/nv_container_1505625997/nv_image.coreimg.100.850.jpeg/1736209420500/nvidia-project-digits-exploded-vew-ari.jpeg",
+            "https://s3.amazonaws.com/cms.ipressroom.com/219/files/20250/project-digits.png",
+            "https://cdn.wccftech.com/wp-content/uploads/2025/01/NVIDIA-CEO-Jensen-Huang-Keynote-at-CES-2025-1-25-28-screenshot.png"
+            ],
+        author: {
+            name: "Aditya Dixit",
+            avatar: "https://plus.unsplash.com/premium_vector-1682269287900-d96e9a6c188b?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            role: "GDP LEAD"
+        },
+        publishDate: "2024-01-25",
+        isLatestNews: true,
+        content: '
+            <p>Powered by the NVIDIA GB10 Grace Blackwell Superchip, Project DIGITS as World’s Smallest AI Supercomputer capable of  delivering a petaflop of AI performance in a power-efficient, compact form factor. With the NVIDIA AI software stack preinstalled and 128GB of memory, developers can prototype, fine-tune, and inference large AI models of up to 200B parameters locally, and seamlessly deploy to the data center or cloud.</p>
+
+            <img src="https://www.nvidia.com/content/nvidiaGDC/us/en_US/project-digits/home/_jcr_content/root/responsivegrid/nv_container_1505625997/nv_image.coreimg.100.850.jpeg/1736209420500/nvidia-project-digits-exploded-vew-ari.jpeg" alt="GB10" />
+    '
+    },
     "future-of-ai": {
         title: "The Future of AI in Daily Life",
         excerpt: "Exploring how artificial intelligence is reshaping our everyday experiences and what to expect in the coming years.",
