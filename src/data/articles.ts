@@ -192,74 +192,34 @@ export const articles: Record<string, Article> = {
         title: "Fibonacci CLUB",
         excerpt: "Fibonacci is a rapidly growing coding community dedicated to empower developers and encouraging a culture of continuous learning",
         coverImage: "https://drive.google.com/file/d/1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l/view",
-        
-        
-        
-        
-        
-        
-        
-        contentImages: [
-            "https://images.unsplash.com/photo-1676299081847-824916de6978",
-            "https://images.unsplash.com/photo-1675557009875-436f7a5c6f3d"
+            contentImages: [
+            "https://drive.google.com/file/d/1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l/view",
+            "https://repository-images.githubusercontent.com/389729275/371ba38b-8a03-4bff-916c-c3fa5396ceda"
         ],
-        
-        
-        
-        
-        
-        author: {
+            author: {
             name: "Fibonacci SoIT",
-            avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+            avatar: "https://drive.google.com/file/d/1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l/view",
             role: "CLUB"
         },
-        
-        
-        
-        
         publishDate: "2025-01-15",
-        isLatestNews: fasle,
+        isLatestNews: false,
         content: `
-           
-           
-           
-           
-           
-           
-           
             <h2>What is FIbonacci?</h2>
             <pFibonacci is a rapidly growing coding community dedicated to empower developers and encouraging a culture of continuous learning.
             Fibonacci aims to provide a comprehensive learning environment where members can enhance their coding skills, exchange knowledge, and solve complex algorithmic challenges.</p>
             
             <img src="https://drive.google.com/file/d/1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l/view" />
-            
-            
-            
-            
-            
-            
             <h2>GeeksforGeek</h2>
             <p>Sparking innovation through code! In partnership with Geeks for Geeks!
 
             GeeksforGeeks is a leading platform that provides computer science resources and coding challenges for programmers and technology enthusiasts,With a vision to bridge the gap between theory and individual GeeksforGeeks upholds its motto:.</p>
             
             <img src="https://repository-images.githubusercontent.com/389729275/371ba38b-8a03-4bff-916c-c3fa5396ceda" />
-
-
-
-
-
-
-
             <h2>FIBOHACK 1.0</h2>
             <p>Fibonacci recently organized a highly successful event, FiboHack 1.0 The Ultimate Hackathon, proudly sponsored by GeeksForGeeks. The event brought together 100+ participants from several prestigious colleges, including LNCT, Oriental, and more. Participants tackled real-world challenges across diverse domains such as Women's Safety, Education, Sustainability, and Civic Engagement.
             The hackathon was a perfect blend of innovation, excitement, and learning, featuring an engaging webinar on 'Web Development with Al,' which provided valuable insights to all attendees. Participants not only got the chance to showcase their skills but also had amazing opportunities to connect and network with like-minded individuals, industry experts, and mentors.
             To add to the thrill, participants walked away with exciting goodies and swags, including keyboards, hoodies, t-shirts, mouse pads, medals, and trophies. The event was a resounding success, fostering collaboration, technical excellence, and an unforgettable experience for all involved.</p>
-
-
-
-
-
+            
             <h2>Upcoming Events :</h2>
             <h3>--> Web development Worksho.</h3>
             <h3>--> Weekly coding challenges.</h3>
@@ -278,10 +238,6 @@ export const articles: Record<string, Article> = {
             Follow our social media for the latest news and updates. Connect with the community!</p>
             <p> 4. Open to everyone.
             We welcome all coding enthusiasts, regardless of skill level. Join us to learn and grow.</p>
-
-
-
-
         `
     },              
 };
