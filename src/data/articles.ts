@@ -109,7 +109,7 @@ export const articles: Record<string, Article> = {
         ],
         author: {
             name: "Aditya Dixit",
-            avatar: "https://drive.google.com/uc?id=1SxA0garJmTa6wR67R2Vkrq3rQIcNmtER",
+            avatar: "https://lh3.google.com/u/2/d/1SxA0garJmTa6wR67R2Vkrq3rQIcNmtER=w1173-h927-iv2",
             role: "GDP LEAD"
         },
         publishDate: "2025-01-25",
@@ -193,12 +193,13 @@ export const articles: Record<string, Article> = {
         excerpt: "Fibonacci is a rapidly growing coding community dedicated to empower developers and encouraging a culture of continuous learning",
         coverImage: "https://lh3.google.com/u/0/d/1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l=w1920-h877-iv1",
             contentImages: [
-            "https://drive.google.com/uc?id=1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l",
+            "https://lh3.google.com/u/0/d/1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l=w1920-h877-iv1",
+            "https://lh3.google.com/u/2/d/1a19iZLdwif1xZG6mWDvcbgQU6KveMT75=w1173-h927-iv1",
             "https://repository-images.githubusercontent.com/389729275/371ba38b-8a03-4bff-916c-c3fa5396ceda"
         ],
             author: {
             name: "Fibonacci SoIT",
-            avatar: "https://drive.google.com/uc?id=1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l",
+            avatar: "https://lh3.google.com/u/0/d/1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l=w1920-h877-iv1",
             role: "CLUB"
         },
         publishDate: "2025-01-15",
@@ -215,6 +216,7 @@ export const articles: Record<string, Article> = {
             
             <img src="https://repository-images.githubusercontent.com/389729275/371ba38b-8a03-4bff-916c-c3fa5396ceda" />
             <h2>FIBOHACK 1.0</h2>
+            <img src="https://lh3.google.com/u/2/d/1a19iZLdwif1xZG6mWDvcbgQU6KveMT75=w1173-h927-iv1" alt="fibohack1.0" />
             <p>Fibonacci recently organized a highly successful event, FiboHack 1.0 The Ultimate Hackathon, proudly sponsored by GeeksForGeeks. The event brought together 100+ participants from several prestigious colleges, including LNCT, Oriental, and more. Participants tackled real-world challenges across diverse domains such as Women's Safety, Education, Sustainability, and Civic Engagement.
             The hackathon was a perfect blend of innovation, excitement, and learning, featuring an engaging webinar on 'Web Development with Al,' which provided valuable insights to all attendees. Participants not only got the chance to showcase their skills but also had amazing opportunities to connect and network with like-minded individuals, industry experts, and mentors.
             To add to the thrill, participants walked away with exciting goodies and swags, including keyboards, hoodies, t-shirts, mouse pads, medals, and trophies. The event was a resounding success, fostering collaboration, technical excellence, and an unforgettable experience for all involved.</p>
@@ -242,7 +244,7 @@ export const articles: Record<string, Article> = {
     "code4all": {
         title: "Code4All",
         excerpt: "Official Coding Club of RGPV, we are a passionate community of programmers aiming to transform code-related anxiety and apprehension into inspiration and motivation for learning.",
-        coverImage: "https://drive.google.com/uc?id=1x8OwUj_Jz0NEaPRFzLkqnJTte2rcuU4g",
+        coverImage: "https://lh3.google.com/u/2/d/1x8OwUj_Jz0NEaPRFzLkqnJTte2rcuU4g=w1173-h907-iv1",
         contentImages: [
             "https://www.instagram.com/p/CH-lVCRpOOe/?utm_source=ig_web_copy_link",
             "http://www.hackerrank.com/c4a05",
@@ -252,9 +254,9 @@ export const articles: Record<string, Article> = {
             "https://www.instagram.com/p/DAo6xrHIio1/"
         ],
         author: {
-            name: "Aditya Dixit",
-            avatar: "https://drive.google.com/uc?id=",
-            role: "GDP LEAD"
+            name: "Code4All",
+            avatar: "https://lh3.google.com/u/2/d/1x8OwUj_Jz0NEaPRFzLkqnJTte2rcuU4g=w1173-h907-iv1",
+            role: "CLUB"
         },
         publishDate: "2025-01-09",
         isLatestNews: false,
@@ -280,25 +282,25 @@ export const articles: Record<string, Article> = {
 
             <h2>Past Events and Contests organized by Code4All</h23>
             <h3>Coding contests</h3>
-            <img src="https://www.instagram.com/p/CH-lVCRpOOe/?utm_source=ig_web_copy_link" alt="coding contest" />
+            <img src="https://instagram.fbho2-1.fna.fbcdn.net/v/t51.29350-15/127186925_3756607161024602_1469148815137518562_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fbho2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=pgNyAHUnLaEQ7kNvgG06Xhk&_nc_gid=bcf7bb1c32f0489bae6033b3a544bfc6&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MjQ0OTU1OTQxNjcwODg1MTEzMg%3D%3D.3-ccb7-5&oh=00_AYCnvtfhlsn7jakaNSfj-MHy5y4Szi7r4o9IT4PyX7e-kA&oe=679AABE4&_nc_sid=10d13b" alt="coding contest" />
             <p>Coding contests organized by the Code4All Club are typically designed to encourage programmers of all skill levels to test their skills,
             collaborate, and learn from each other. These contests often include a variety of challenges to suit diverse interests and expertise.
             Code4All club has organized a big number of 13 coding contest in the past on the hacker rank. </p>
-            <img src="http://www.hackerrank.com/c4a05" alt="hackerRank" />
+            <a src="http://www.hackerrank.com/c4a05">1st coding contest organized by the club on HackerRank</a>
             <h3>She Codes.</h3>
-            <img src="https://www.instagram.com/p/CL9cSaOpWMQ/" alt="She codes" />
+            <img src="https://instagram.fbho2-1.fna.fbcdn.net/v/t51.29350-15/156526193_262544138646195_8971404363099998418_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fbho2-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=MwXw1Lmm0sUQ7kNvgGs8jq8&_nc_gid=2276ad27a9194255b4fcd1c70ef8282e&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MjUyMTI5NTc3NjgxMzI0NTIwMA%3D%3D.3-ccb7-5&oh=00_AYCbYmElZzE5EVQbPM6hB5svfiY-qlWk9mkxbfPyKjZ9HQ&oe=679AB235&_nc_sid=10d13b" alt="She codes" />
             <p>Code4All applauds the achievements of women who have ventured on their path of Competitive Programming.
             On the auspicious occasion of International Women’s Day for the honor of women who code Code4All brings
             SheCodes an exclusive coding contest for the girls. Code4All club has organized a total of two SheCodes in the past on the hacker rank.</p>
-            <img src="http://www.hackerrank.com/c4a05" alt="hackerRank" />
+            <a href="http://www.hackerrank.com/c4a05">SheCodes on HackerRank</a>
             <h3>REACT DRIFT</h3>
-            <img src="https://www.instagram.com/p/CZKCm0WvqW8/?utm_source=ig_web_copy_link" alt="react drift" />
+            <img src="https://instagram.fbho2-1.fna.fbcdn.net/v/t51.29350-15/272504453_166570345697862_7280861745854123866_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMjgweDEyODAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fbho2-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=MxK5C_VXCpIQ7kNvgFaMmj-&_nc_gid=4aa98a5d3d6045cd96fb208785a11d74&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=Mjc1OTAyOTE4MDg4NzU5NjE4OA%3D%3D.3-ccb7-5&oh=00_AYBGrpfh5ZQrwvRm-8tvUyRWhZIhVaKIo9duAIzTp10WZg&oe=679AC343&_nc_sid=10d13b" alt="react drift" />
             <p>This time Code4All came up with an exquisite development contest series to upskill the technical abilities of the students in the form of React Drift.</p>
             <p>1. React Drift was a front-end development contest using React.js, where all the participants were given online resources to learn React.js
             and a whatsapp group was created to clear the doubts of the participants, once the participant were comfortable with library, they’d to make a portfolio app and also host it on web</p>
             <p>2. React Drift was not just any development contest, it was full-fledged learning Bootcamp program, while the only pre-requisite for the event was learning attitude, “once you’re open to learning, the learning becomes very easy”.</p>
             <h3>HACKTOBERFEST</h3>
-            <img src="https://www.instagram.com/p/DAo6xrHIio1/" alt="hacktoberfest" />
+            <img src="https://instagram.fbho2-1.fna.fbcdn.net/v/t51.29350-15/461759418_1056396372538854_1895379103501106538_n.webp?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fbho2-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=E6HBh7K9hO8Q7kNvgG8LqRq&_nc_gid=067cf60ba63d4e96ade8951dca1b8656&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzQ3MDI4MjAxMzEzMTU0OTIzNw%3D%3D.3-ccb7-5&oh=00_AYB09B2WZ6M0i8r8ilvpuc_b-flHUGJubgbbkUNaXcOYeQ&oe=679AA844&_nc_sid=10d13b" alt="hacktoberfest" />
             <p>Hacktoberfest of  Code4All was an online fest organized on 6th and 7th of the october 2024,
             participants came up together for Hacktoberfest 2024 with the Code4All Club to contribute, learn, and code from the comfort of home!</p>
             <p>Hacktoberfest consisted of live coding sessions, insightful workshops, and exclusive tips on navigating open-source contributions!</p>
