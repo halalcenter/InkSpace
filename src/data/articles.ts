@@ -191,7 +191,7 @@ export const articles: Record<string, Article> = {
         "Fibonacci SoIT": {
         title: "Fibonacci CLUB",
         excerpt: "Fibonacci is a rapidly growing coding community dedicated to empower developers and encouraging a culture of continuous learning",
-        coverImage: "https://drive.google.com/uc?id=1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l",
+        coverImage: "https://lh3.google.com/u/0/d/1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l=w1920-h877-iv1",
             contentImages: [
             "https://drive.google.com/uc?id=1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l",
             "https://repository-images.githubusercontent.com/389729275/371ba38b-8a03-4bff-916c-c3fa5396ceda"
