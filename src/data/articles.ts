@@ -109,7 +109,7 @@ export const articles: Record<string, Article> = {
         ],
         author: {
             name: "Aditya Dixit",
-            avatar: "https://drive.google.com/open?id=1EIwBf-IuHGCSApWandlUQ-U55cuQHWtK&usp=drive_copy",
+            avatar: "/_/drive_fe/_/js/k=drive_fe.main.en.b21cGR4WoNI.2021.O/am=PKgBJASgfGwwnoAIgKAAgEwACjg/d=1/br=1/rs=AFB8gsz40qNpaRzcqvwycQn-vYGFW-Zecw/m=b",
             role: "GDP LEAD"
         },
         publishDate: "2025-01-25",
@@ -191,14 +191,14 @@ export const articles: Record<string, Article> = {
         "Fibonacci SoIT": {
         title: "Fibonacci CLUB",
         excerpt: "Fibonacci is a rapidly growing coding community dedicated to empower developers and encouraging a culture of continuous learning",
-        coverImage: "https://drive.google.com/file/d/1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l/view",
+        coverImage: "/_/drive_fe/_/js/k=drive_fe.main.en.b21cGR4WoNI.2021.O/am=PKgBJASgfGwwnoAIgKAAgEwACjg/d=1/br=1/rs=AFB8gsz40qNpaRzcqvwycQn-vYGFW-Zecw/m=b",
             contentImages: [
             "https://drive.google.com/file/d/1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l/view",
             "https://repository-images.githubusercontent.com/389729275/371ba38b-8a03-4bff-916c-c3fa5396ceda"
         ],
             author: {
             name: "Fibonacci SoIT",
-            avatar: "https://drive.google.com/file/d/1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l/view",
+            avatar: "/_/drive_fe/_/js/k=drive_fe.main.en.b21cGR4WoNI.2021.O/am=PKgBJASgfGwwnoAIgKAAgEwACjg/d=1/br=1/rs=AFB8gsz40qNpaRzcqvwycQn-vYGFW-Zecw/m=b",
             role: "CLUB"
         },
         publishDate: "2025-01-15",
@@ -243,7 +243,7 @@ export const articles: Record<string, Article> = {
     "code4all": {
         title: "Code4All",
         excerpt: "Official Coding Club of RGPV, we are a passionate community of programmers aiming to transform code-related anxiety and apprehension into inspiration and motivation for learning.",
-        coverImage: "https://drive.google.com/open?id=1x8OwUj_Jz0NEaPRFzLkqnJTte2rcuU4g&usp=drive_copy",
+        coverImage: "/_/drive_fe/_/js/k=drive_fe.main.en.b21cGR4WoNI.2021.O/am=PKgBJASgfGwwnoAIgKAAgEwACjg/d=1/br=1/rs=AFB8gsz40qNpaRzcqvwycQn-vYGFW-Zecw/m=b",
         contentImages: [
             "https://www.instagram.com/p/CH-lVCRpOOe/?utm_source=ig_web_copy_link",
             "http://www.hackerrank.com/c4a05",
@@ -254,7 +254,7 @@ export const articles: Record<string, Article> = {
         ],
         author: {
             name: "Aditya Dixit",
-            avatar: "https://drive.google.com/open?id=1EIwBf-IuHGCSApWandlUQ-U55cuQHWtK&usp=drive_copy",
+            avatar: "/_/drive_fe/_/js/k=drive_fe.main.en.b21cGR4WoNI.2021.O/am=PKgBJASgfGwwnoAIgKAAgEwACjg/d=1/br=1/rs=AFB8gsz40qNpaRzcqvwycQn-vYGFW-Zecw/m=b",
             role: "GDP LEAD"
         },
         publishDate: "2025-01-09",
