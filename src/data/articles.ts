@@ -279,8 +279,6 @@ export const articles: Record<string, Article> = {
             <h3>Editorials</h3>
             <p>Editorials to all the problems are available on our Github Account. In all the forthcoming contests, editorials shall be available just after the contest.</p>
 
-            <img src="https://cdn.wccftech.com/wp-content/uploads/2025/01/NVIDIA-CEO-Jensen-Huang-Keynote-at-CES-2025-1-25-28-screenshot.png" alt="Super Computer" />
-
             <h2>Past Events and Contests organized by Code4All</h23>
             <h3>Coding contests</h3>
             <img src="https://www.instagram.com/p/CH-lVCRpOOe/?utm_source=ig_web_copy_link" alt="coding contest" />
