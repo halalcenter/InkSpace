@@ -239,5 +239,73 @@ export const articles: Record<string, Article> = {
             <p> 4. Open to everyone.
             We welcome all coding enthusiasts, regardless of skill level. Join us to learn and grow.</p>
         `
-    },              
+    },
+    "code4all": {
+        title: "Code4All",
+        excerpt: "Official Coding Club of RGPV, we are a passionate community of programmers aiming to transform code-related anxiety and apprehension into inspiration and motivation for learning.",
+        coverImage: "https://drive.google.com/open?id=1x8OwUj_Jz0NEaPRFzLkqnJTte2rcuU4g&usp=drive_copy",
+        contentImages: [
+            "https://www.instagram.com/p/CH-lVCRpOOe/?utm_source=ig_web_copy_link",
+            "http://www.hackerrank.com/c4a05",
+            "https://www.instagram.com/p/CL9cSaOpWMQ/",
+            "http://www.hackerrank.com/c4a05",
+            "https://www.instagram.com/p/CZKCm0WvqW8/?utm_source=ig_web_copy_link",
+            "https://www.instagram.com/p/DAo6xrHIio1/"
+        ],
+        author: {
+            name: "Aditya Dixit",
+            avatar: "https://drive.google.com/open?id=1EIwBf-IuHGCSApWandlUQ-U55cuQHWtK&usp=drive_copy",
+            role: "GDP LEAD"
+        },
+        publishDate: "2025-01-09",
+        isLatestNews: true,
+        content: `
+            <h2>Code your way to success</h2>
+            <p>Enhance the way you code, accelerate your coding journey and achieve success with us.
+            Code4All enthusiastic group of coders. We want to replace code anxiety and fear with inspiration and motivation to learn.
+            Our team comprises of problem setters, web developers, app developers, blockchain developers, administration managers, operation handlers, graphic designers, content curators and video editors.</p>
+
+            <h2>What is Code4All</h2>
+            <p>Official Coding Club of RGPV, we are a passionate community of programmers aiming to transform code-related anxiety and apprehension into inspiration and motivation for learning.
+            Our team includes individuals responsible for problem setting, technical aspects, administration/operations, graphic design, content curation, and video editing.</p>
+            
+            <h2>Why Code4All Club?</h2>
+            <p>"Unlock success through coding with Code4All! Elevate your coding skills, accelerate your coding journey, and achieve greatness with us."</p>
+
+            <h3>Motto</h3>
+            <p>Code4All is having a very clear vision to encourage students towards Coding. We are working together only to enhance the coding culture among students.</p>
+            <h3>Contests</h3>
+            <p>Attend all the contests; rise or fall doesn't matter learn from your last one and rock on the next. We organize coding contests in every 15 days.</p>
+            <h3>Editorials</h3>
+            <p>Editorials to all the problems are available on our Github Account. In all the forthcoming contests, editorials shall be available just after the contest.</p>
+
+            <img src="https://cdn.wccftech.com/wp-content/uploads/2025/01/NVIDIA-CEO-Jensen-Huang-Keynote-at-CES-2025-1-25-28-screenshot.png" alt="Super Computer" />
+
+            <h2>Past Events and Contests organized by Code4All</h23>
+            <h3>Coding contests</h3>
+            <img src="https://www.instagram.com/p/CH-lVCRpOOe/?utm_source=ig_web_copy_link" alt="coding contest" />
+            <p>Coding contests organized by the Code4All Club are typically designed to encourage programmers of all skill levels to test their skills,
+            collaborate, and learn from each other. These contests often include a variety of challenges to suit diverse interests and expertise.
+            Code4All club has organized a big number of 13 coding contest in the past on the hacker rank. </p>
+            <img src="http://www.hackerrank.com/c4a05" alt="hackerRank" />
+            <h3>She Codes.</h3>
+            <img src="https://www.instagram.com/p/CL9cSaOpWMQ/" alt="She codes" />
+            <p>Code4All applauds the achievements of women who have ventured on their path of Competitive Programming.
+            On the auspicious occasion of International Women’s Day for the honor of women who code Code4All brings
+            SheCodes an exclusive coding contest for the girls. Code4All club has organized a total of two SheCodes in the past on the hacker rank.</p>
+            <img src="http://www.hackerrank.com/c4a05" alt="hackerRank" />
+            <h3>REACT DRIFT</h3>
+            <img src="https://www.instagram.com/p/CZKCm0WvqW8/?utm_source=ig_web_copy_link" alt="react drift" />
+            <p>This time Code4All came up with an exquisite development contest series to upskill the technical abilities of the students in the form of React Drift.</p>
+            <p>1. React Drift was a front-end development contest using React.js, where all the participants were given online resources to learn React.js
+            and a whatsapp group was created to clear the doubts of the participants, once the participant were comfortable with library, they’d to make a portfolio app and also host it on web</p>
+            <p>2. React Drift was not just any development contest, it was full-fledged learning Bootcamp program, while the only pre-requisite for the event was learning attitude, “once you’re open to learning, the learning becomes very easy”.</p>
+            <h3>HACKTOBERFEST</h3>
+            <img src="https://www.instagram.com/p/DAo6xrHIio1/" alt="hacktoberfest" />
+            <p>Hacktoberfest of  Code4All was an online fest organized on 6th and 7th of the october 2024,
+            participants came up together for Hacktoberfest 2024 with the Code4All Club to contribute, learn, and code from the comfort of home!</p>
+            <p>Hacktoberfest consisted of live coding sessions, insightful workshops, and exclusive tips on navigating open-source contributions!</p>
+        `
+    }
+    
 };
