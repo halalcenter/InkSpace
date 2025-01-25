@@ -390,7 +390,7 @@ export const articles: Record<string, Article> = {
             - Date: 26th December 2024
             - Venue: Conference Hall
             - Time: 3:00 PM - 5:00 PM</p>
-            <img src="https://drive.google.com/u/0/drive-viewer/AKGpihb3y6ZkToU79gCpWpkqQg4ig4Okn1CbpmH9FUwNgWKiX-JMzr1FE2SoDzN7P52H7xyGK64Bkj1_y-TrBoiKkzqpqJ2EGGsoOpU=s1600-rw-v1" alt="alumni meet" />
+            <img src="https://lh3.google.com/u/2/d/1NrZLt063l5WGMZB4vNjH6AN0hPX5Z9ua=w1173-h907-iv1" alt="alumni meet" />
             <h3>Speakers</h3>
             <h4>1. *Asad Khan*</h4>
             <p>- Batch: EC 2005
