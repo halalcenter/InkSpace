@@ -286,7 +286,7 @@ export const articles: Record<string, Article> = {
             <p>Coding contests organized by the Code4All Club are typically designed to encourage programmers of all skill levels to test their skills,
             collaborate, and learn from each other. These contests often include a variety of challenges to suit diverse interests and expertise.
             Code4All club has organized a big number of 13 coding contest in the past on the hacker rank. </p>
-            <a src="http://www.hackerrank.com/c4a05">1st coding contest organized by the club on HackerRank</a>
+            <a href="http://www.hackerrank.com/c4a05">1st coding contest organized by the club on HackerRank</a>
             <h3>She Codes.</h3>
             <img src="https://instagram.fbho2-1.fna.fbcdn.net/v/t51.29350-15/156526193_262544138646195_8971404363099998418_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fbho2-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=MwXw1Lmm0sUQ7kNvgGs8jq8&_nc_gid=2276ad27a9194255b4fcd1c70ef8282e&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MjUyMTI5NTc3NjgxMzI0NTIwMA%3D%3D.3-ccb7-5&oh=00_AYCbYmElZzE5EVQbPM6hB5svfiY-qlWk9mkxbfPyKjZ9HQ&oe=679AB235&_nc_sid=10d13b" alt="She codes" />
             <p>Code4All applauds the achievements of women who have ventured on their path of Competitive Programming.
