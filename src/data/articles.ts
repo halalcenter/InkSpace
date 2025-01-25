@@ -14,28 +14,6 @@ export interface Article {
 }
 
 export const articles: Record<string, Article> = {
-     "nvidia-digits": {
-        title: "NVIDIA Project DIGITS",
-        excerpt: "NVIDIA unveiled NVIDIA® Project DIGITS, Powered by the NVIDIA GB10 Grace Blackwell Superchip.",
-        coverImage: "https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/02-nvidia-logo-color-grn-500x200-4c25-p@2x.png",
-        contentImage: [
-            "https://www.nvidia.com/content/nvidiaGDC/us/en_US/project-digits/home/_jcr_content/root/responsivegrid/nv_container_1505625997/nv_image.coreimg.100.850.jpeg/1736209420500/nvidia-project-digits-exploded-vew-ari.jpeg",
-            "https://s3.amazonaws.com/cms.ipressroom.com/219/files/20250/project-digits.png",
-            "https://cdn.wccftech.com/wp-content/uploads/2025/01/NVIDIA-CEO-Jensen-Huang-Keynote-at-CES-2025-1-25-28-screenshot.png"
-            ],
-        author: {
-            name: "Aditya Dixit",
-            avatar: "https://plus.unsplash.com/premium_vector-1682269287900-d96e9a6c188b?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            role: "GDP LEAD"
-        },
-        publishDate: "2024-01-25",
-        isLatestNews: true,
-        content: '
-            <p>Powered by the NVIDIA GB10 Grace Blackwell Superchip, Project DIGITS as World’s Smallest AI Supercomputer capable of  delivering a petaflop of AI performance in a power-efficient, compact form factor. With the NVIDIA AI software stack preinstalled and 128GB of memory, developers can prototype, fine-tune, and inference large AI models of up to 200B parameters locally, and seamlessly deploy to the data center or cloud.</p>
-
-            <img src="https://www.nvidia.com/content/nvidiaGDC/us/en_US/project-digits/home/_jcr_content/root/responsivegrid/nv_container_1505625997/nv_image.coreimg.100.850.jpeg/1736209420500/nvidia-project-digits-exploded-vew-ari.jpeg" alt="GB10" />
-    '
-    },
     "future-of-ai": {
         title: "The Future of AI in Daily Life",
         excerpt: "Exploring how artificial intelligence is reshaping our everyday experiences and what to expect in the coming years.",
@@ -98,7 +76,7 @@ export const articles: Record<string, Article> = {
         author: {
             name: "ADITYA D",
             avatar: "https://plus.unsplash.com/premium_vector-1682269287900-d96e9a6c188b?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            role: "GDP HEAD"
+            role: "GDP LEAD"
         },
         publishDate: "2024-11-30",
         isLatestNews: false,
@@ -119,5 +97,54 @@ export const articles: Record<string, Article> = {
 
 
         `
-    }
+    },
+    "nvidia-digits": {
+        title: "NVIDIA Project DIGITS",
+        excerpt: "NVIDIA unveiled NVIDIA® Project DIGITS as World’s Smallest AI Supercomputer, Powered by the NVIDIA GB10",
+        coverImage: "https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/02-nvidia-logo-color-grn-500x200-4c25-p@2x.png",
+        contentImages: [
+            "https://www.nvidia.com/content/nvidiaGDC/us/en_US/project-digits/home/_jcr_content/root/responsivegrid/nv_container_1505625997/nv_image.coreimg.100.850.jpeg/1736209420500/nvidia-project-digits-exploded-vew-ari.jpeg",
+            "https://s3.amazonaws.com/cms.ipressroom.com/219/files/20250/project-digits.png",
+            "https://cdn.wccftech.com/wp-content/uploads/2025/01/NVIDIA-CEO-Jensen-Huang-Keynote-at-CES-2025-1-25-28-screenshot.png"
+        ],
+        author: {
+            name: "Aditya Dixit",
+            avatar: "https://drive.google.com/open?id=1EIwBf-IuHGCSApWandlUQ-U55cuQHWtK&usp=drive_copy",
+            role: "GDP LEAD"
+        },
+        publishDate: "2025-01-25",
+        isLatestNews: true,
+        content: `
+            <p>Powered by the NVIDIA GB10 Grace Blackwell Superchip, Project DIGITS as World’s Smallest AI Supercomputer capable of  delivering a petaflop of AI performance in a power-efficient, compact form factor.
+            With the NVIDIA AI software stack preinstalled and 128GB of memory, developers can prototype, fine-tune, and inference large AI models of up to 200B parameters locally, and seamlessly deploy to the data center or cloud.</p>
+            
+            <img src="https://www.nvidia.com/content/nvidiaGDC/us/en_US/project-digits/home/_jcr_content/root/responsivegrid/nv_container_1505625997/nv_image.coreimg.100.850.jpeg/1736209420500/nvidia-project-digits-exploded-vew-ari.jpeg" alt="GB10" />
+            
+            <p>NVIDIA unveiled NVIDIA® Project DIGITS, a personal AI supercomputer that provides AI researchers, data scientists and students worldwide with access to the power of the NVIDIA Grace Blackwell platform.
+            Project DIGITS features the new NVIDIA GB10 Grace Blackwell Superchip, offering a petaflop of AI computing performance for prototyping, fine-tuning and running large AI models.</p>
+            
+            <img src="https://s3.amazonaws.com/cms.ipressroom.com/219/files/20250/project-digits.png" alt="DIGITS" />
+            
+            <p>With Project DIGITS, users can develop and run inference on models using their own desktop system, then seamlessly deploy the models on accelerated cloud or data center infrastructure.
+            “AI will be mainstream in every application for every industry. With Project DIGITS, the Grace Blackwell Superchip comes to millions of developers,” said Jensen Huang, founder and CEO of NVIDIA.
+            “Placing an AI supercomputer on the desks of every data scientist, AI researcher and student empowers them to engage and shape the age of AI.”</p>
+
+            <h3>GB10 Superchip Provides a Petaflop of Power-Efficient AI Performance</h3>
+            <p>The GB10 Superchip is a system-on-a-chip (SoC) based on the NVIDIA Grace Blackwell architecture and delivers up to 1 petaflop of AI performance at FP4 precision.
+            GB10 features an [NVIDIA Blackwell GPU](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/) with latest-generation CUDA® cores and 
+            fifth-generation [Tensor Cores](https://www.nvidia.com/en-us/data-center/tensor-cores/), connected via [NVLink®-C2C](https://www.nvidia.com/en-us/data-center/nvlink-c2c/) 
+            chip-to-chip interconnect to a high-performance NVIDIA Grace™ CPU, which includes 20 power-efficient cores built with the Arm architecture. MediaTek, a market leader
+            in Arm-based SoC designs, collaborated on the design of GB10, contributing to its best-in-class power efficiency, performance and connectivity.</p>
+
+            <img src="https://cdn.wccftech.com/wp-content/uploads/2025/01/NVIDIA-CEO-Jensen-Huang-Keynote-at-CES-2025-1-25-28-screenshot.png" alt="Super Computer" />
+
+            <h3>Grace Blackwell AI Supercomputing Within Reach</h3>
+            <p>With the Grace Blackwell architecture, enterprises and researchers can prototype, fine-tune and test models on local Project DIGITS systems running Linux-based NVIDIA
+            DGX OS, and then deploy them seamlessly on [NVIDIA DGX Cloud](https://www.nvidia.com/en-us/data-center/resources/?ncid=no-ncid)™, accelerated cloud instances or data center infrastructure.
+            This allows developers to prototype AI on Project DIGITS and then scale on cloud or data center infrastructure, using the same Grace Blackwell architecture and the
+            [NVIDIA AI Enterprise](https://www.nvidia.com/en-us/data-center/products/ai-enterprise/) software platform.</p>
+
+            <h3>Availability</h3>
+            <p>Project DIGITS will be available in May from NVIDIA and top partners, starting at $3,000.</p>
+        `
 };
