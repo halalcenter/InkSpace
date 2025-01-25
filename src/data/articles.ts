@@ -309,14 +309,15 @@ export const articles: Record<string, Article> = {
     "the-persona": {
         title: "The Persona",
         excerpt: "The Persona is a Personality Grooming Club - a unique space where you can cultivate your best self.",
-        coverImage: "",
+        coverImage: "https://lh3.google.com/u/2/d/1esvcQPZ--qT6-jPC9zS2QC2YBnwFC-Md=w2000-h3040-iv1?auditContext=forDisplay",
         contentImage: [
             "https://lh3.google.com/u/2/d/1TM0bg7iA42jdyJ7dO81L845_6P66MHhV=w1867-h927-iv2",
+            "https://lh3.google.com/u/2/d/1NrZLt063l5WGMZB4vNjH6AN0hPX5Z9ua=w1173-h907-iv1",
             "https://lh3.google.com/u/2/d/15OKwz0J-puOP0_B6zX88VddbZTFkKTg0=w1867-h927-iv2"
             ],
         author: {
             name: "The Persona",
-            avatar: "",
+            avatar: "https://lh3.google.com/u/2/d/1esvcQPZ--qT6-jPC9zS2QC2YBnwFC-Md=w2000-h3040-iv1?auditContext=forDisplay",
             role: "Club"
         },
         publishDate: "2025-01-07",
@@ -386,58 +387,58 @@ export const articles: Record<string, Article> = {
             career development strategies, and personal growth. By sharing their experiences and expertise,
             the alumni offered valuable guidance to help students navigate academic and professional journeys effectively.</p>
             <h3>Event Overview</h3>
-            <p>- Event Name: Unlocking Your Potential: Alumni Interaction Session
-            - Date: 26th December 2024
-            - Venue: Conference Hall
+            <p><strong>- Event Name: Unlocking Your Potential: Alumni Interaction Session</strong>
+            - Date: 26th December 2024<br>
+            - Venue: Conference Hall<br>
             - Time: 3:00 PM - 5:00 PM</p>
             <img src="https://lh3.google.com/u/2/d/1NrZLt063l5WGMZB4vNjH6AN0hPX5Z9ua=w1173-h907-iv1" alt="alumni meet" />
             <h3>Speakers</h3>
-            <h4>1. *Asad Khan*</h4>
-            <p>- Batch: EC 2005
-            - Current Position: Systems Solution Architect, Ericsson (India)
+            <h4>1. Asad Khan</h4>
+            <p>- Batch: EC 2005<br>
+            - Current Position: Systems Solution Architect, Ericsson (India)<br>
             - Expertise: Systems Architecture and Telecommunications</p>
             <h4>2. Ankit Upadhyay</h4>
-            <p>- Batch: CS 2005
-            - Current Position: Data Engineer, Google (USA)
+            <p>- Batch: CS 2005<br>
+            - Current Position: Data Engineer, Google (USA)<br>
             - Expertise: Data Engineering and Cloud Technologies</p>
-            <h4>3. *Amit Sharma*</h4>
-            <p>- Batch: IT 2005
-            - Current Position: Product Lead, Meta (USA)
+            <h4>3. Amit Sharma</h4>
+            <p>- Batch: IT 2005<br>
+            - Current Position: Product Lead, Meta (USA)<br>
             - Expertise: Product Management and Technology Leadership</p>
             <h3>Purpose and Objectives</h3>
             <h4>The primary goal of the event was to:</h4>
-            <p>- Provide students with real-world insights into industry trends and expectations.
-            - Help bridge the gap between academic learning and professional realities.
-            - Inspire students to pursue excellence through the shared experiences of alumni.
+            <p>- Provide students with real-world insights into industry trends and expectations.<br>
+            - Help bridge the gap between academic learning and professional realities.<br>
+            - Inspire students to pursue excellence through the shared experiences of alumni.<br>
             - Strengthen the bond between alumni and their alma mater.</p>
             <p>By engaging in open discussions, Q&A sessions, and networking opportunities, students gained practical knowledge and actionable adviceto prepare for their future endeavors.</p>
             <h3>Pre-Event Work</h3>
-            <p>- Event promotion through posters and graphics.
+            <p>- Event promotion through posters and graphics.<br>
             - Social media campaigns on Instagram and WhatsApp.</p>
             <h3>Session Breakdown</h3>
             <h4>1. Opening Session:</h4>
-            <p>- Welcome address by Training and Placement Officer, Dr. Shikha Agrawal.
-            - Alumni introductions and an overview of their achievements.
+            <p>- Welcome address by Training and Placement Officer, Dr. Shikha Agrawal.<br>
+            - Alumni introductions and an overview of their achievements.<br>
             - Presentation of bouquets to the guests by Dr. Shikha Agrawal.</p>
             <h4>2. Alumni Insights and Key Topics:</h4>
-            <p>- Professional Journeys: Alumni shared experiences, challenges, and key learnings from their respective fields.
-            <strong>- Navigating University Life:</strong>
-            - Balancing academics and extracurriculars.
-            - Building strong foundations for future careers.
-            <strong>- Modern Challenges in the Tech Industry:</strong>
-            - AI's transformative impact on industries.
-            - Adapting to rapid technological advancements.
-            <strong>- Career Development:</strong>
-            - Importance of continuous learning and emerging trends.
-            - Exploring international opportunities and industry transitions.
+            <p>- Professional Journeys: Alumni shared experiences, challenges, and key learnings from their respective fields.<br>
+            <strong>- Navigating University Life:</strong><br>
+            - Balancing academics and extracurriculars.<br>
+            - Building strong foundations for future careers.<br>
+            <strong>- Modern Challenges in the Tech Industry:</strong><br>
+            - AI's transformative impact on industries.<br>
+            - Adapting to rapid technological advancements.<br>
+            <strong>- Career Development:</strong><br>
+            - Importance of continuous learning and emerging trends.<br>
+            - Exploring international opportunities and industry transitions.<br>
             - Focus on deep study, logical thinking, and avoiding reliance on question banks.</p>
             <h4>Q&A Session:</h4>
-            <p><strong>- Interactive discussion covering:</strong>
-            - Career strategies, industry-specific insights, and workplace challenges.
-            - International work experiences and emerging roles (e.g., DevOps, Cloud Engineers).
+            <p><strong>- Interactive discussion covering:</strong><br>
+            - Career strategies, industry-specific insights, and workplace challenges.<br>
+            - International work experiences and emerging roles (e.g., DevOps, Cloud Engineers).<br>
             - Changes in RGPV over the past 20 years.</p>
             <h4>Networking Session:</h4>
-            <p>- One-on-one interactions and small group discussions with alumni.
+            <p>- One-on-one interactions and small group discussions with alumni.<br>
             - Exchange of professional contacts and mentorship opportunities</p>
             <h3>Event Impact</h3>
             <p>The collaboration with TNP-RGPV enriched the event, creating opportunities for networking, mentorship, and real-world insights. 
@@ -446,8 +447,8 @@ export const articles: Record<string, Article> = {
             <p>Gratitude was extended to the distinguished alumni’s, Dr. Shikha Agrawal Ma’am, faculty coordinators, the organizing committee,
             technical team, and all attendees for making this event a success.</p>
             <h3>Future Initiatives</h3>
-            <p><strong>Building on this success, The Persona plans to:</strong>
-            - Host regular alumni interaction sessions.
+            <p><strong>Building on this success, The Persona plans to:</strong><br>
+            - Host regular alumni interaction sessions.<br>
             - Develop mentorship programs and networking platforms.</p>
             <p>The session concluded with renewed inspiration among students, reflecting the enduring bond between alumni and their alma mater. 
             The Persona Club expresses heartfelt thanks to the alumni for their invaluable time and guidance.</p>
