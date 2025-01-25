@@ -218,7 +218,7 @@ export const articles: Record<string, Article> = {
             <p>Fibonacci recently organized a highly successful event, FiboHack 1.0 The Ultimate Hackathon, proudly sponsored by GeeksForGeeks. The event brought together 100+ participants from several prestigious colleges, including LNCT, Oriental, and more. Participants tackled real-world challenges across diverse domains such as Women's Safety, Education, Sustainability, and Civic Engagement.
             The hackathon was a perfect blend of innovation, excitement, and learning, featuring an engaging webinar on 'Web Development with Al,' which provided valuable insights to all attendees. Participants not only got the chance to showcase their skills but also had amazing opportunities to connect and network with like-minded individuals, industry experts, and mentors.
             To add to the thrill, participants walked away with exciting goodies and swags, including keyboards, hoodies, t-shirts, mouse pads, medals, and trophies. The event was a resounding success, fostering collaboration, technical excellence, and an unforgettable experience for all involved.</p>
-            <img src="https://drive.google.com/uc?id=1a19iZLdwif1xZG6mWDvcbgQU6KveMT75" alt="team behind fibohack1.0" />
+            <img src="https://t3.ftcdn.net/jpg/05/31/07/52/360_F_531075272_uaIv5KEd3L0YGc3uLixoAe34qfgOTNRl.jpg" />
             <h2>Upcoming Events :</h2>
             <h3>--> Web development Worksho.</h3>
             <h3>--> Weekly coding challenges.</h3>
