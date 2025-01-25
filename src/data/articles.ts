@@ -258,7 +258,7 @@ export const articles: Record<string, Article> = {
             role: "GDP LEAD"
         },
         publishDate: "2025-01-09",
-        isLatestNews: true,
+        isLatestNews: false,
         content: `
             <h2>Code your way to success</h2>
             <p>Enhance the way you code, accelerate your coding journey and achieve success with us.
