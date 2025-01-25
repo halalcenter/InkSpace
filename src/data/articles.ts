@@ -147,4 +147,5 @@ export const articles: Record<string, Article> = {
             <h3>Availability</h3>
             <p>Project DIGITS will be available in May from NVIDIA and top partners, starting at $3,000.</p>
         `
+    }
 };
