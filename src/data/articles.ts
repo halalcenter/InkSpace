@@ -147,5 +147,45 @@ export const articles: Record<string, Article> = {
             <h3>Availability</h3>
             <p>Project DIGITS will be available in May from NVIDIA and top partners, starting at $3,000.</p>
         `
-    }
+    },
+        "Google Developers Group(GDG)": {
+        title: "GDG",
+        excerpt: "Google Developer Groups (GDGs) bring together developers and technologists to connect, learn, and grow alongside Google's technologies and experts. These groups support innovation and growth in the tech world by providing opportunities to learn, share knowledge, and collaborate",
+        coverImage: "yt3.googleusercontent.com",
+        contentImages: [
+            "https://images.unsplash.com/photo-1676299081847-824916de6978",
+            "https://images.unsplash.com/photo-1675557009875-436f7a5c6f3d"
+        ],
+        author: {
+            name: "GDG SOIT",
+            avatar: "yt3.googleusercontent.com",
+            role: "CLUB"
+        },
+        publishDate: "2025-01-20",
+        isLatestNews: false,
+        content: `
+            <h2>What is GDG? and how is this related with Google.</h2>
+            
+            <p>Google Developers Group (GDG) on campus, School of Information Technology, Bhopal is a part of the Google Developers Group (GDG), a global community of tech enthusiasts initiated by Google, spanning across 140 countries. It’s not just about coding; it’s about learning, exploring, and sharing technology. GDG brings together people who love to learn and experiment with various technologies, especially those associated with Google. Whether it’s advanced topics like cloud computing or something as fundamental as debugging code, GDG has got you covered.</p>
+            
+            <img src="https://media.licdn.com/dms/image/v2/D4D3DAQGcBFpDF0iiRQ/image-scale_191_1128/image-scale_191_1128/0/1691916129574/google_developer_student_clubs_soit_rgpv_cover?e=2147483647&v=beta&t=WUwkQgTY8EGcnz3FxfNFe9adFNvzDcI0RO0yN6Qx3bE" />
+           
+           
+           
+            <h2>Study jam - Build with AI</h2>
+            <p>Recently, GDG introduced an exciting educational initiative called Google Build with AI Study Jam, designed to help developers dive into the world of artificial intelligence. The program garnered immense interest, with over 200 applications received for participation. It was a month long google cloud experience program in the format of learn and earn.</p>
+            
+            <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/study-jam%20logo_UkyLUs8.png" />
+            
+
+
+
+            <h2>Why to join GDG community.</h2>
+
+            <p>Being a part of the GDG community is more than just learning; it’s about staying connected with like-minded individuals and accessing countless opportunities to grow in the tech domain. If you’re passionate about technology and want to explore the fascinating world of AI, GDG is the perfect community for you. Stay tuned for upcoming events and workshops—exciting things are on the way!</p>
+
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQoCWPOOARwVrw0QOllRAi6Zifjtbr6myXpg&s" />
+        `
+    } 
 };
