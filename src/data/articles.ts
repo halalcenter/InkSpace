@@ -309,7 +309,7 @@ export const articles: Record<string, Article> = {
     "the-persona": {
         title: "The Persona",
         excerpt: "The Persona is a Personality Grooming Club - a unique space where you can cultivate your best self.",
-        coverImage: "https://lh3.google.com/u/2/d/1esvcQPZ--qT6-jPC9zS2QC2YBnwFC-Md=w2000-h3040-iv1?auditContext=forDisplay",
+        coverImage: "https://lh3.google.com/u/2/d/1XHy2sruiVrVOdeEHz9wtgtv3MtZWpLTt=w1867-h927-iv1",
         contentImage: [
             "https://lh3.google.com/u/2/d/1TM0bg7iA42jdyJ7dO81L845_6P66MHhV=w1867-h927-iv2",
             "https://lh3.google.com/u/2/d/1NrZLt063l5WGMZB4vNjH6AN0hPX5Z9ua=w1173-h907-iv1",
@@ -317,7 +317,7 @@ export const articles: Record<string, Article> = {
             ],
         author: {
             name: "The Persona",
-            avatar: "https://lh3.google.com/u/2/d/1esvcQPZ--qT6-jPC9zS2QC2YBnwFC-Md=w2000-h3040-iv1?auditContext=forDisplay",
+            avatar: "https://lh3.google.com/u/2/d/1XHy2sruiVrVOdeEHz9wtgtv3MtZWpLTt=w1867-h927-iv1",
             role: "Club"
         },
         publishDate: "2025-01-07",
