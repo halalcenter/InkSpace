@@ -189,7 +189,7 @@ export const articles: Record<string, Article> = {
         `
     },
         "Fibonacci SoIT": {
-        title: "Fibonacci CLUB ,
+        title: "Fibonacci CLUB",
         excerpt: "Fibonacci is a rapidly growing coding community dedicated to empower developers and encouraging a culture of continuous learning",
         coverImage: "https://drive.google.com/file/d/1KMdIxwxDwZpZA0tGd2JST6dwHZqH2X7l/view",
         
