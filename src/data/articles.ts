@@ -217,7 +217,7 @@ export const articles: Record<string, Article> = {
         
         
         
-        publishDate: "2025-01-25",
+        publishDate: "2025-01-15",
         isLatestNews: fasle,
         content: `
            
