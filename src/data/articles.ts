@@ -524,7 +524,7 @@ export const articles: Record<string, Article> = {
             role: "GDP Volunteer"
         },
         publishDate: "2025-01-25",
-        isLatestNews: false,
+        isLatestNews: true,
         content: `
         <p>Creativity is the name of the game in today's fast-paced digital age. Social media has emerged as a mighty tool for people connection, idea sharing,
         and business promotion. For video editors and social media marketers, the task is developing content that gets noticed and makes a lasting impression.
