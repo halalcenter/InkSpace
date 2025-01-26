@@ -69,31 +69,50 @@ export const articles: Record<string, Article> = {
         `
     },
     "csds": {
-        title: "csds syallabus",
-        excerpt: "",
+        title: "CSDS Syllabus",
+        excerpt: "Notes and other resources for CSE-(DS) branch, SoIT",
         coverImage: "https://images.unsplash.com/photo-1599658880436-c61792e70672?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         contentImages: [],
         author: {
-            name: "ADITYA D",
-            avatar: "https://plus.unsplash.com/premium_vector-1682269287900-d96e9a6c188b?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            role: "GDP LEAD"
+            name: "ADITYA DIXIT",
+            avatar: "https://lh3.google.com/u/2/d/1SxA0garJmTa6wR67R2Vkrq3rQIcNmtER=w1173-h927-iv2",
+            role: "GDP Volunteer"
         },
         publishDate: "2024-11-30",
         isLatestNews: false,
         content: `
             <h1>1ST SEMESTER</h1>
             <h3>Intriductry Topics in Statistics, Probabilty and Calculas(CD-101)</h3>
-            <p><a href="https://drive.google.com/uc?export=download&id=133snpnbLpIlYJWEVJ30dGLORcsNx3BOb" download style="color: #a581bd;text-decoration: none; "> Unit-I Introduction to Statistics</a></p>
-            <p> <a href="https://drive.google.com/uc?export=download&id=133snpnbLpIlYJWEVJ30dGLORcsNx3BOb" download style="color: #a581bd;text-decoration: none; ">Unit-II Descriptive Statistics</a></p>
- <p><a href="https://drive.google.com/uc?export=download&id=133snpnbLpIlYJWEVJ30dGLORcsNx3BOb" download style="color: #a581bd;text-decoration: none; ">Unit-III Probability</a></p>
-<p> <a href="https://drive.google.com/uc?export=download&id=133snpnbLpIlYJWEVJ30dGLORcsNx3BOb" download style="color: #a581bd;text-decoration: none; ">Unit-IV Probability distributions</a></p>
- <p><a href="https://drive.google.com/uc?export=download&id=133snpnbLpIlYJWEVJ30dGLORcsNx3BOb" download style="color: #a581bd;text-decoration: none; ">Unit-V Calculus</a></p>
- <h3>Intriductry Topics in Statistics, Probabilty and Calculas(CD-101)</h3>
-            <p><a href="https://drive.google.com/uc?export=download&id=133snpnbLpIlYJWEVJ30dGLORcsNx3BOb" download style="color: #a581bd;text-decoration: none; "> Unit-I Introduction to Statistics</a></p>
-            <p> <a href="https://drive.google.com/uc?export=download&id=133snpnbLpIlYJWEVJ30dGLORcsNx3BOb" download style="color: #a581bd;text-decoration: none; ">Unit-II Descriptive Statistics</a></p>
- <p><a href="https://drive.google.com/uc?export=download&id=133snpnbLpIlYJWEVJ30dGLORcsNx3BOb" download style="color: #a581bd;text-decoration: none; ">Unit-III Probability</a></p>
-<p> <a href="https://drive.google.com/uc?export=download&id=133snpnbLpIlYJWEVJ30dGLORcsNx3BOb" download style="color: #a581bd;text-decoration: none; ">Unit-IV Probability distributions</a></p>
- <p><a href="https://drive.google.com/uc?export=download&id=133snpnbLpIlYJWEVJ30dGLORcsNx3BOb" download style="color: #a581bd;text-decoration: none; ">Unit-V Calculus</a></p>
+            <p><a href="https://drive.google.com/uc?export=download&id=133snpnbLpIlYJWEVJ30dGLORcsNx3BOb" download style="color: #a581bd;text-decoration: none; ">Unit-I Introduction to Statistics(all units in one)</a></p>
+            <p> <a href="https://drive.google.com/uc?export=download&id=133snpnbLpIlYJWEVJ30dGLORcsNx3BOb" download style="color: #a581bd;text-decoration: none; ">Unit-II Descriptive Statistics(all units in one)</a></p>
+            <p><a href="https://drive.google.com/uc?export=download&id=133snpnbLpIlYJWEVJ30dGLORcsNx3BOb" download style="color: #a581bd;text-decoration: none; ">Unit-III Probability(all units in one)</a></p>
+            <p> <a href="https://drive.google.com/uc?export=download&id=133snpnbLpIlYJWEVJ30dGLORcsNx3BOb" download style="color: #a581bd;text-decoration: none; ">Unit-IV Probability distributions(all units in one)</a></p>
+            <p><a href="https://drive.google.com/uc?export=download&id=133snpnbLpIlYJWEVJ30dGLORcsNx3BOb" download style="color: #a581bd;text-decoration: none; ">Unit-V Calculus(all units in one)</a></p>
+            <h3>Basic Computer Engineering(CD-102)</h3>
+            <p><a href="https://drive.google.com/file/d/12HRzPyVXflAsPFg3IAxtNjOZuI2Jdbus/view" download style="color: #a581bd;text-decoration: none; ">Unit-I Introduction to Computer</a></p>
+            <p> <a href="https://drive.google.com/file/d/1VBgwXh3k9sHZ7mE0zKuxH4jQVsFiu196/view" download style="color: #a581bd;text-decoration: none; ">Unit-II Introduction to Algorithms</a></p>
+            <p><a href="https://drive.google.com/file/d/1v2VhObKI7Z05TqDFpCr2GwKOCEqx_8Qn/view" download style="color: #a581bd;text-decoration: none; ">Unit-III Introduction to Data Structures</a></p>
+            <p> <a href="https://drive.google.com/file/d/1ctDCrPJVCTxCLyeWnsATpbnq1nEHtX_2/view" download style="color: #a581bd;text-decoration: none; ">Unit-IV Computer Networking</a></p>
+            <p><a href="https://drive.google.com/file/d/124qM_bfNM9OaDGOpd_A-bmhCrY1HsqKw/view" download style="color: #a581bd;text-decoration: none; ">Unit-V Data Base Management System</a></p>
+            <h3>Principles of Electronics(CD-103)</h3>
+            <p><a href="https://drive.google.com/file/d/1LdaTIAbaqeEY_chEXBhLEHI8mhi-v6_V/view" download style="color: #a581bd;text-decoration: none; ">Unit-I Semiconductors</a></p>
+            <p> <a href="https://drive.google.com/file/d/1Lb7HZeVnC_yFmkzfNFhdVxP-mXN48JVj/view" download style="color: #a581bd;text-decoration: none; ">Unit-II Diodes and Diode Circuits</a></p>
+            <p><a href="https://drive.google.com/file/d/1L4B6MaglIZif0OScgXD32ibLoR5aGaxz/view" download style="color: #a581bd;text-decoration: none; ">Unit-III Bipolar Junction Transistors(part 1)</a>
+            <a href="https://drive.google.com/file/d/1L3I7Z7Mq4zB2GPwDiJkJzFTHN8jMLzNB/view" download style="color: #a581bd;text-decoration: none; ">   (part 2)</a></p>
+            <p> <a href="https://drive.google.com/file/d/1LH-BlDbHGpV51Eaoozvj3poKbflUCXB0/view" download style="color: #a581bd;text-decoration: none; ">Unit-IV Feed Back Amplifier, Oscillators and Operational Amplifiers</a></p>
+            <p><a href="https://drive.google.com/file/d/1LF15kmF7xGPFhYv7lmvwIfwLSTUAQspL/view" download style="color: #a581bd;text-decoration: none; ">Unit-V Digital Electronics</a></p>
+            <h3>Fundamentals of Physics(CD-104)</h3>
+            <p><a href="https://drive.google.com/file/d/1Pzwf0TIuCXzZM4nzpqLV64UEG4WuJT8A/view" download style="color: #a581bd;text-decoration: none; ">Unit-I Oscillation</a></p>
+            <p> <a href="https://drive.google.com/file/d/1fnNGXQB0GeaWlukbWyqPPgHVZFyqPOQs/view" download style="color: #a581bd;text-decoration: none; ">Unit-II Interference-Principle of Superposition-Young’s experiment</a></p>
+            <p><a href="https://drive.google.com/file/d/10PajwTQ24uZv_XOi-F-AQmXH1w5OHBli/view" download style="color: #a581bd;text-decoration: none; ">Unit-III Polarization of light</a></p>
+            <p> <a href="https://drive.google.com/file/d/1ot9Cf-21qbt9dDN7mqsFEcEnYKzcoF6o/view" download style="color: #a581bd;text-decoration: none; ">Unit-IV Quantum Mechanics</a></p>
+            <p><a href="https://drive.google.com/file/d/1-TeJdaMmPEfleazBWE6YeB1am4Dzh5Li/view" download style="color: #a581bd;text-decoration: none; ">Unit-V Laser and Fiberoptics</a></p>
+            <h3>Communication Skills(CD-105)</h3>
+            <p><a href="https://drive.google.com/file/d/1Uzb19x3VZ2BsMUrjIOoUBM-QhCoqvjuI/view" download style="color: #a581bd;text-decoration: none; ">Unit-I Overview of Leadership Oriented Learning (LOL)(all in units one)</a></p>
+            <p><a href="https://drive.google.com/file/d/1Uzb19x3VZ2BsMUrjIOoUBM-QhCoqvjuI/view" download style="color: #a581bd;text-decoration: none; ">Unit-II Essential Grammar-I(all in units one)</a></p>
+            <p><a href="https://drive.google.com/file/d/1Uzb19x3VZ2BsMUrjIOoUBM-QhCoqvjuI/view" download style="color: #a581bd;text-decoration: none; ">Unit-III Communication Skills(all in units one)</a></p>
+            <p><a href="https://drive.google.com/file/d/1Uzb19x3VZ2BsMUrjIOoUBM-QhCoqvjuI/view" download style="color: #a581bd;text-decoration: none; ">Unit-IV Email Writing(all in units one)</a></p>
+            <p><a href="https://drive.google.com/file/d/1Uzb19x3VZ2BsMUrjIOoUBM-QhCoqvjuI/view" download style="color: #a581bd;text-decoration: none; ">Unit-V Understanding Life Skills(all in units one)</a></p>
 
 
         `
@@ -110,7 +129,7 @@ export const articles: Record<string, Article> = {
         author: {
             name: "Aditya Dixit",
             avatar: "https://lh3.google.com/u/2/d/1SxA0garJmTa6wR67R2Vkrq3rQIcNmtER=w1173-h927-iv2",
-            role: "GDP LEAD"
+            role: "GDP Volunteer"
         },
         publishDate: "2025-01-25",
         isLatestNews: true,
@@ -463,7 +482,7 @@ export const articles: Record<string, Article> = {
             ],
         author: {
             name: "Nexura",
-            coverImage: "https://lh3.google.com/u/2/d/1Y4VLoMul7OzXWSxABXI9pWObEJOfRpFt=w2000-h3276-iv1",
+            avatar: "https://lh3.google.com/u/2/d/1Y4VLoMul7OzXWSxABXI9pWObEJOfRpFt=w2000-h3276-iv1",
             role: "Club"
         },
         publishDate: "2025-01-15",
@@ -483,11 +502,11 @@ export const articles: Record<string, Article> = {
             explore, enhance, and fully embrace their potential. To ensure alignment of the society's goals with those of the University Institute of Technology, Rajiv Gandhi Technical University, Bhopal [M.P.],
             fostering a shared vision of academic and personal excellence.</p>
             <h3>Nexura’s Impressive work:-</h3>
-            <a href="https://www.instagram.com/reel/DExLNYdyQGn/?igsh=MTgzYWVuN29lOW1ydg==">INSTAGRAM POST 1</a>
-            <a href="https://www.instagram.com/reel/DEQOqJctJUl/?igsh=ZG1pZm5vdmZ1MmJ2">INSTAGRAM POST 2</a>
-            <a href="https://www.instagram.com/reel/DDpUXWTt1C1/?igsh=MWRxcmkyZTFiZXB2dg==">INSTAGRAM POST 3</a>
-            <a href="https://www.instagram.com/reel/DCeyHp8NLqq/?igsh=MXU2MHQ4aGZ2dDh1ZQ==">INSTAGRAM POST 4</a>
-            <a href="https://www.instagram.com/reel/DCMhyi_ynrm/?igsh=YXdxZzlqZ2M0NDg1">INSTAGRAM POST 5</a>
+            <p><a href="https://www.instagram.com/reel/DExLNYdyQGn/?igsh=MTgzYWVuN29lOW1ydg==">INSTAGRAM POST 1</a><br>
+            <a href="https://www.instagram.com/reel/DEQOqJctJUl/?igsh=ZG1pZm5vdmZ1MmJ2">INSTAGRAM POST 2</a><br>
+            <a href="https://www.instagram.com/reel/DDpUXWTt1C1/?igsh=MWRxcmkyZTFiZXB2dg==">INSTAGRAM POST 3</a><br>
+            <a href="https://www.instagram.com/reel/DCeyHp8NLqq/?igsh=MXU2MHQ4aGZ2dDh1ZQ==">INSTAGRAM POST 4</a><br>
+            <a href="https://www.instagram.com/reel/DCMhyi_ynrm/?igsh=YXdxZzlqZ2M0NDg1">INSTAGRAM POST 5</a></p>
             `
     },
 };
