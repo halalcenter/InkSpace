@@ -246,12 +246,12 @@ export const articles: Record<string, Article> = {
         excerpt: "Official Coding Club of RGPV, we are a passionate community of programmers aiming to transform code-related anxiety and apprehension into inspiration and motivation for learning.",
         coverImage: "https://lh3.google.com/u/2/d/1x8OwUj_Jz0NEaPRFzLkqnJTte2rcuU4g=w1173-h907-iv1",
         contentImages: [
-            "https://www.instagram.com/p/CH-lVCRpOOe/?utm_source=ig_web_copy_link",
+            "https://lh3.google.com/u/2/d/1zc8knKtCDpCYPrnzrvSqaysmw5eD24Lz=w2000-h3276-iv1",
             "http://www.hackerrank.com/c4a05",
-            "https://www.instagram.com/p/CL9cSaOpWMQ/",
+            "https://lh3.google.com/u/2/d/1nNtn-Xs5f1wN-f8I4kAVNQTeiQY_oJw0=w2000-h3276-iv1",
             "http://www.hackerrank.com/c4a05",
-            "https://www.instagram.com/p/CZKCm0WvqW8/?utm_source=ig_web_copy_link",
-            "https://www.instagram.com/p/DAo6xrHIio1/"
+            "https://lh3.google.com/u/2/d/1aO3dRZ87Lxg-3QwvT9c0NkhfflPnpBi8=w2000-h3276-iv1",
+            "https://lh3.google.com/u/2/d/1fdu_4pTDxyIQaXZ6RbhattvUr42-ps4T=w1440-h1440-iv1"
         ],
         author: {
             name: "Code4All",
@@ -282,25 +282,25 @@ export const articles: Record<string, Article> = {
 
             <h2>Past Events and Contests organized by Code4All</h23>
             <h3>Coding contests</h3>
-            <img src="https://instagram.fbho2-1.fna.fbcdn.net/v/t51.29350-15/127186925_3756607161024602_1469148815137518562_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fbho2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=pgNyAHUnLaEQ7kNvgG06Xhk&_nc_gid=bcf7bb1c32f0489bae6033b3a544bfc6&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MjQ0OTU1OTQxNjcwODg1MTEzMg%3D%3D.3-ccb7-5&oh=00_AYCnvtfhlsn7jakaNSfj-MHy5y4Szi7r4o9IT4PyX7e-kA&oe=679AABE4&_nc_sid=10d13b" alt="coding contest" />
+            <img src="https://lh3.google.com/u/2/d/1zc8knKtCDpCYPrnzrvSqaysmw5eD24Lz=w2000-h3276-iv1" alt="coding contest" />
             <p>Coding contests organized by the Code4All Club are typically designed to encourage programmers of all skill levels to test their skills,
             collaborate, and learn from each other. These contests often include a variety of challenges to suit diverse interests and expertise.
             Code4All club has organized a big number of 13 coding contest in the past on the hacker rank. </p>
             <a href="http://www.hackerrank.com/c4a05">1st coding contest organized by the club on HackerRank</a>
             <h3>She Codes.</h3>
-            <img src="https://instagram.fbho2-1.fna.fbcdn.net/v/t51.29350-15/156526193_262544138646195_8971404363099998418_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fbho2-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=MwXw1Lmm0sUQ7kNvgGs8jq8&_nc_gid=2276ad27a9194255b4fcd1c70ef8282e&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MjUyMTI5NTc3NjgxMzI0NTIwMA%3D%3D.3-ccb7-5&oh=00_AYCbYmElZzE5EVQbPM6hB5svfiY-qlWk9mkxbfPyKjZ9HQ&oe=679AB235&_nc_sid=10d13b" alt="She codes" />
+            <img src="https://lh3.google.com/u/2/d/1nNtn-Xs5f1wN-f8I4kAVNQTeiQY_oJw0=w2000-h3276-iv1" alt="She codes" />
             <p>Code4All applauds the achievements of women who have ventured on their path of Competitive Programming.
             On the auspicious occasion of International Women’s Day for the honor of women who code Code4All brings
             SheCodes an exclusive coding contest for the girls. Code4All club has organized a total of two SheCodes in the past on the hacker rank.</p>
             <a href="http://www.hackerrank.com/c4a05">SheCodes on HackerRank</a>
             <h3>REACT DRIFT</h3>
-            <img src="https://instagram.fbho2-1.fna.fbcdn.net/v/t51.29350-15/272504453_166570345697862_7280861745854123866_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMjgweDEyODAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fbho2-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=MxK5C_VXCpIQ7kNvgFaMmj-&_nc_gid=4aa98a5d3d6045cd96fb208785a11d74&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=Mjc1OTAyOTE4MDg4NzU5NjE4OA%3D%3D.3-ccb7-5&oh=00_AYBGrpfh5ZQrwvRm-8tvUyRWhZIhVaKIo9duAIzTp10WZg&oe=679AC343&_nc_sid=10d13b" alt="react drift" />
+            <img src="https://lh3.google.com/u/2/d/1aO3dRZ87Lxg-3QwvT9c0NkhfflPnpBi8=w2000-h3276-iv1" alt="react drift" />
             <p>This time Code4All came up with an exquisite development contest series to upskill the technical abilities of the students in the form of React Drift.</p>
             <p>1. React Drift was a front-end development contest using React.js, where all the participants were given online resources to learn React.js
             and a whatsapp group was created to clear the doubts of the participants, once the participant were comfortable with library, they’d to make a portfolio app and also host it on web</p>
             <p>2. React Drift was not just any development contest, it was full-fledged learning Bootcamp program, while the only pre-requisite for the event was learning attitude, “once you’re open to learning, the learning becomes very easy”.</p>
             <h3>HACKTOBERFEST</h3>
-            <img src="https://instagram.fbho2-1.fna.fbcdn.net/v/t51.29350-15/461759418_1056396372538854_1895379103501106538_n.webp?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fbho2-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=E6HBh7K9hO8Q7kNvgG8LqRq&_nc_gid=067cf60ba63d4e96ade8951dca1b8656&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzQ3MDI4MjAxMzEzMTU0OTIzNw%3D%3D.3-ccb7-5&oh=00_AYB09B2WZ6M0i8r8ilvpuc_b-flHUGJubgbbkUNaXcOYeQ&oe=679AA844&_nc_sid=10d13b" alt="hacktoberfest" />
+            <img src="https://lh3.google.com/u/2/d/1fdu_4pTDxyIQaXZ6RbhattvUr42-ps4T=w1440-h1440-iv1" alt="hacktoberfest" />
             <p>Hacktoberfest of  Code4All was an online fest organized on 6th and 7th of the october 2024,
             participants came up together for Hacktoberfest 2024 with the Code4All Club to contribute, learn, and code from the comfort of home!</p>
             <p>Hacktoberfest consisted of live coding sessions, insightful workshops, and exclusive tips on navigating open-source contributions!</p>
@@ -452,6 +452,42 @@ export const articles: Record<string, Article> = {
             - Develop mentorship programs and networking platforms.</p>
             <p>The session concluded with renewed inspiration among students, reflecting the enduring bond between alumni and their alma mater. 
             The Persona Club expresses heartfelt thanks to the alumni for their invaluable time and guidance.</p>
+            `
+    },
+    "nexura": {
+        title: "NEXURA",
+        excerpt: "Nexura aims to create a hub for aspiring developers and creatives where they can harness their technical, artistic, and interpersonal skills for professional and personal development",
+        coverImage: "https://lh3.google.com/u/2/d/1Y4VLoMul7OzXWSxABXI9pWObEJOfRpFt=w2000-h3276-iv1",
+        contentImage: [
+            "https://www.instagram.com/reel/DBTX2kMy833"
+            ],
+        author: {
+            name: "Nexura",
+            coverImage: "https://lh3.google.com/u/2/d/1Y4VLoMul7OzXWSxABXI9pWObEJOfRpFt=w2000-h3276-iv1",
+            role: "Club"
+        },
+        publishDate: "2025-01-15",
+        isLatestNews: false,
+        content: `
+            <p>“अग्रेसृजनं, वि जयः पथः " or "Creation leads, the victory follows” is the club's tagline. Nexura aims to create a hub for aspiring developers
+            and creatives where they can harness their technical, artistic, and interpersonal skills for professional and personal development.
+            The club aims to develop skills related to web development, 3D animation, software like ANSYS, and personality development.</p>
+            <h2>Objectives of the club:</h2>
+            <h3>Technical Expertise:</h3> <p>To provide resources and opportunities for learning and practicing web development and 3D animation.</p>
+            <h3>Skill Development:</h3> <p>To enhance member’s technical, creative, and personal skills through structured workshops, peer learning, and real-world projects.</p>
+            <h3>Personality Growth:</h3> <p>To promote personal and professional growth by focusing on communication, leadership, and presentation skills.</p>
+            <h3>Collaboration and Networking:</h3> <p>To facilitate cooperation between members and build connections with industry professionals.</p>
+            <h3>Project Implementation:</h3> <p>To foster a culture of practical implementation by encouraging members to work on real-world projects.</p>
+            <h2>Nexura’s vision:</h2>
+            <p>To instill key values of diligence, self-discipline, sincerity, dedication, and determination in students through comprehensive training in the relevant fields, while strictly adhering to the institute's rules and regulations. To establish a reputation as the foundation that empowers students to
+            explore, enhance, and fully embrace their potential. To ensure alignment of the society's goals with those of the University Institute of Technology, Rajiv Gandhi Technical University, Bhopal [M.P.],
+            fostering a shared vision of academic and personal excellence.</p>
+            <h3>Nexura’s Impressive work:-</h3>
+            <a href="https://www.instagram.com/reel/DExLNYdyQGn/?igsh=MTgzYWVuN29lOW1ydg==">INSTAGRAM POST 1</a>
+            <a href="https://www.instagram.com/reel/DEQOqJctJUl/?igsh=ZG1pZm5vdmZ1MmJ2">INSTAGRAM POST 2</a>
+            <a href="https://www.instagram.com/reel/DDpUXWTt1C1/?igsh=MWRxcmkyZTFiZXB2dg==">INSTAGRAM POST 3</a>
+            <a href="https://www.instagram.com/reel/DCeyHp8NLqq/?igsh=MXU2MHQ4aGZ2dDh1ZQ==">INSTAGRAM POST 4</a>
+            <a href="https://www.instagram.com/reel/DCMhyi_ynrm/?igsh=YXdxZzlqZ2M0NDg1">INSTAGRAM POST 5</a>
             `
     },
 };
