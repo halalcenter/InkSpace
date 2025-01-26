@@ -225,7 +225,7 @@ export const articles: Record<string, Article> = {
         isLatestNews: false,
         content: `
             <h2>What is FIbonacci?</h2>
-            <pFibonacci is a rapidly growing coding community dedicated to empower developers and encouraging a culture of continuous learning.
+            <p>Fibonacci is a rapidly growing coding community dedicated to empower developers and encouraging a culture of continuous learning.
             Fibonacci aims to provide a comprehensive learning environment where members can enhance their coding skills, exchange knowledge, and solve complex algorithmic challenges.</p>
             
             <h2>GeeksforGeek</h2>
