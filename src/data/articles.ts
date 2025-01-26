@@ -515,7 +515,7 @@ export const articles: Record<string, Article> = {
         coverImage: "https://lh3.google.com/u/2/d/1RmEQUCLKAlb4MlJF5ukoi6Rfri3fREJs=w1867-h927-iv1",
         contentImage: [
             "https://lh3.google.com/u/2/d/1Gm75jSaAW8swmQu6vr1WtT3f-SaAwfE_=w1920-h868-iv1",
-            "https://lh3.google.com/u/2/d/1BY-OQu09FGLhS64pPQEyUkuova-flhlr=w1227-h868-iv1",
+            "https://lh3.google.com/u/2/d/1BY-OQu09FGLhS64pPQEyUkuova-flhlr=w1867-h927-iv1",
             "https://lh3.google.com/u/2/d/1mHSoSyfBHvAXP7jgLQmjjH3TBt-LWJPf=w1920-h868-iv1"
             ],
         author: {
@@ -543,7 +543,7 @@ export const articles: Record<string, Article> = {
         While technical proficiency is handy, it's creativity that distinguishes your content. Ideas may strike anywhere—movies, artwork, or fellow creators. 
         Sites like Pinterest and Behance are ideal to look for ideas. Feel free to experiment with new forms or styles. Numerous viral crazes began in test mode. 
         To make your content stand out, presenting your message in innovative formats, such as humor, animation, or interactive content, works.</p>
-        <img src="https://lh3.google.com/u/2/d/1BY-OQu09FGLhS64pPQEyUkuova-flhlr=w1227-h868-iv1" alt="growth on social media" />
+        <img src="https://lh3.google.com/u/2/d/1BY-OQu09FGLhS64pPQEyUkuova-flhlr=w1867-h927-iv1" alt="growth on social media" />
         <p>Here's an example of how creativity, social media, and video editing collaborated for a successful campaign. A neighborhood coffee shop needed 
         to promote a new seasonal drink. They released teasers on social media prior to launch and collaborated with local influencers to increase reach. 
         They also created short videos for Instagram and YouTube explaining how the drink was prepared, with slow-motion shots of coffee being poured, 
