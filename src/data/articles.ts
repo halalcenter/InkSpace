@@ -74,9 +74,9 @@ export const articles: Record<string, Article> = {
         coverImage: "https://images.unsplash.com/photo-1599658880436-c61792e70672?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         contentImages: [],
         author: {
-            name: "ADITYA DIXIT",
-            avatar: "https://lh3.google.com/u/2/d/1SxA0garJmTa6wR67R2Vkrq3rQIcNmtER=w1173-h927-iv2",
-            role: "GDP Volunteer"
+            name: "SoIT, RGPV",
+            avatar: "https://upload.wikimedia.org/wikipedia/en/c/c4/Rajiv_Gandhi_Proudyogiki_Vishwavidyalaya_logo.png",
+            role: "Institute"
         },
         publishDate: "2024-11-30",
         isLatestNews: false,
