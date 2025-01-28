@@ -228,7 +228,7 @@ export const articles: Record<string, Article> = {
             <p>Fibonacci is a rapidly growing coding community dedicated to empower developers and encouraging a culture of continuous learning.
             Fibonacci aims to provide a comprehensive learning environment where members can enhance their coding skills, exchange knowledge, and solve complex algorithmic challenges.</p>
             
-            <h2>GeeksforGeek</h2>
+            <br><h2>GeeksforGeek</h2>
             <p>Sparking innovation through code! In partnership with Geeks for Geeks!
 
             GeeksforGeeks is a leading platform that provides computer science resources and coding challenges for programmers and technology enthusiasts,With a vision to bridge the gap between theory and individual GeeksforGeeks upholds its motto:.</p>
@@ -247,7 +247,7 @@ export const articles: Record<string, Article> = {
             <h3>--> Graphic designing Mentorship programs.</h3>
             <h3>--> Networking events.</h3>
 
-            <h2>How to Join?</h2>
+            <br><h2>How to Join?</h2>
             <h3>Become a part of Fibonacci SOIT and enhance your coding journey</h3>
 
             <p> 1. Register Online. 
@@ -348,51 +348,51 @@ export const articles: Record<string, Article> = {
             <h3>The Persona functions on the 2 basic categories of activities</h3>
             <h2>REGULAR ACTIVITIES</h2>
             <p>These are the activities performed on daily or weekly basis
-            Group discussions, Debates, Workshops, Presentation of trending topics.</p>
+            Group discussions, Debates, Workshops, Presentation of trending topics.</p><br>
             <h2>EVENTS</h2>
             <p>These are the activities organized occasionally
             Debates competitions, Mock interviews, Public
             speeches competition, Seminars, Quiz competitions.</p>
             <h3>The Persona has successfully organized one Workshop and two Events.
-            Below are the details of each, outlined one by one:</h3>
+            Below are the details of each, outlined one by one:</h3><br>
             <h2>WORKSHOP 1-Built Your Digital Legacy: LinkedIn Workshop</h2>
             <p>The Persona organized an online session titled *"Build Your Digital Legacy"* on 20th October 2024 . The session aimed to help students build a professional LinkedIn profile and enhance their networking skills.
             The mentor for the session was *Mr. Prakul Mishra*, Head Coordinator at Training and Placement Cell (TnP), who provided valuable insights on creating impactful LinkedIn profiles.
             He covered topics such as optimizing headlines and summaries, showcasing skills, and using LinkedIn effectively for career opportunities.
             Students actively participated, asking questions and receiving personalized feedback. The session was highly appreciated for its practical approach and relevance to career development.
-            The Persona thanks Mr. Prakul Mishra for his guidance and all participants for making the event successful.</p>
+            The Persona thanks Mr. Prakul Mishra for his guidance and all participants for making the event successful.</p><br>
             <h3>EVENT 1-</h3>
             <h2>Vichaar Sangam Report: Group Discussion Competition</h2>
             <img src="https://lh3.google.com/u/2/d/15OKwz0J-puOP0_B6zX88VddbZTFkKTg0=w1867-h927-iv2" alt="Vichaar Sangam" />
             <p>In the spirit of intellectual engagement and personal development, The Persona Club organized an exceptional event, Vichaar Sangam – Confluence of Thoughts, on 22nd November 2024. 
             This group discussion competition aimed to provide a dynamic platform for students to enhance their communication, critical thinking, and teamwork skills.
             The event brought together participants, judges, and esteemed guests to foster a culture of thoughtful dialogue and collaborative learning, aligning with the club's mission to nurture well-rounded individuals.</p>
-            <h3>Event Overview</h3>
+            <br><h3>Event Overview</h3>
             <p>- Name: Vichaar Sangam – Confluence of Thoughts<br>
             - Date: 22nd November 2024<br>
             - Venue: Old Mechanical Building, RGPV<br>
             - Organizer : The Persona Club<br>
-            - Objective: To enhance students' communication, critical thinking, and teamwork skills through engaging group discussions.</p>
+            - Objective: To enhance students' communication, critical thinking, and teamwork skills through engaging group discussions.</p><br>
             <h3>Winners of the Competition</h3>
             <p>- Title Winner: Dhruv Tiwari<br>
             - 1st Runner-up: Shubhangi Tiwari<br>
             - 2nd Runner-up: Rajat Verma<br>
             - 3rd Runner-up: Ujjawal Tiwari<br>
             - 4th Runner-up: Hardik Manthankar</p>
-            <h3>Judgment Criteria</h3>
+            <br><h3>Judgment Criteria</h3>
             <p>- Content knowledge<br>
             - Communication skills<br>
             - Team dynamics<br>
             - Decision-making<br>
             - General knowledge</p>
-            <h3>Closing Ceremony</h3>
+            <br><h3>Closing Ceremony</h3>
             <p>- Results Announcement: 3:51 PM.<br>
             - Prizes: Certificates, trophies, mugs, medals, and stickers.<br>
             - Thank You Speeches: Delivered by club lead Ansh Kumar and mentors.<br>
             - Feedback: Provided by chief guests, judges and participants.</p>
-            <h3>Captured Moments from the Session</h3>
+            <br><h3>Captured Moments from the Session</h3>
             <p>The event captured memorable moments of intellectual engagement and teamwork, showcasing the efforts and skills of all participants.</p>
-            <h3>Acknowledgment</h3>
+            <br><h3>Acknowledgment</h3>
             <p>"Vichaar Sangam" successfully fostered intellectual engagement and skill-building among participants.
             The Persona Club extends heartfelt gratitude to the assessors, judges, chief guests, and participants for their contributions to the event’s
             success. Such initiatives inspire continuous growth in students' personal and professional development.</p><br>
@@ -404,7 +404,7 @@ export const articles: Record<string, Article> = {
             learn directly from professionals who once walked the same halls, now excelling in their respective fields.
             This session focused on fostering meaningful dialogue between students and alumni, addressing the evolving challenges of the tech industry,
             career development strategies, and personal growth. By sharing their experiences and expertise,
-            the alumni offered valuable guidance to help students navigate academic and professional journeys effectively.</p>
+            the alumni offered valuable guidance to help students navigate academic and professional journeys effectively.</p><br>
             <h3>Event Overview</h3>
             <p><strong>- Event Name: Unlocking Your Potential: Alumni Interaction Session</strong>
             - Date: 26th December 2024<br>
@@ -423,22 +423,22 @@ export const articles: Record<string, Article> = {
             <h4>3. Amit Sharma</h4>
             <p>- Batch: IT 2005<br>
             - Current Position: Product Lead, Meta (USA)<br>
-            - Expertise: Product Management and Technology Leadership</p>
+            - Expertise: Product Management and Technology Leadership</p><br>
             <h3>Purpose and Objectives</h3>
             <h4>The primary goal of the event was to:</h4>
             <p>- Provide students with real-world insights into industry trends and expectations.<br>
             - Help bridge the gap between academic learning and professional realities.<br>
             - Inspire students to pursue excellence through the shared experiences of alumni.<br>
             - Strengthen the bond between alumni and their alma mater.</p>
-            <p>By engaging in open discussions, Q&A sessions, and networking opportunities, students gained practical knowledge and actionable adviceto prepare for their future endeavors.</p>
-            <h3>Pre-Event Work</h3>
+            <br><p>By engaging in open discussions, Q&A sessions, and networking opportunities, students gained practical knowledge and actionable adviceto prepare for their future endeavors.</p>
+            <br><h3>Pre-Event Work</h3>
             <p>- Event promotion through posters and graphics.<br>
             - Social media campaigns on Instagram and WhatsApp.</p>
-            <h3>Session Breakdown</h3>
+            <br><h3>Session Breakdown</h3><br>
             <h4>1. Opening Session:</h4>
             <p>- Welcome address by Training and Placement Officer, Dr. Shikha Agrawal.<br>
             - Alumni introductions and an overview of their achievements.<br>
-            - Presentation of bouquets to the guests by Dr. Shikha Agrawal.</p>
+            - Presentation of bouquets to the guests by Dr. Shikha Agrawal.</p><br>
             <h4>2. Alumni Insights and Key Topics:</h4>
             <p>- Professional Journeys: Alumni shared experiences, challenges, and key learnings from their respective fields.<br>
             <strong>- Navigating University Life:</strong><br>
@@ -450,7 +450,7 @@ export const articles: Record<string, Article> = {
             <strong>- Career Development:</strong><br>
             - Importance of continuous learning and emerging trends.<br>
             - Exploring international opportunities and industry transitions.<br>
-            - Focus on deep study, logical thinking, and avoiding reliance on question banks.</p>
+            - Focus on deep study, logical thinking, and avoiding reliance on question banks.</p><br>
             <h4>Q&A Session:</h4>
             <p><strong>- Interactive discussion covering:</strong><br>
             - Career strategies, industry-specific insights, and workplace challenges.<br>
@@ -458,13 +458,13 @@ export const articles: Record<string, Article> = {
             - Changes in RGPV over the past 20 years.</p>
             <h4>Networking Session:</h4>
             <p>- One-on-one interactions and small group discussions with alumni.<br>
-            - Exchange of professional contacts and mentorship opportunities</p>
+            - Exchange of professional contacts and mentorship opportunities</p><br>
             <h3>Event Impact</h3>
             <p>The collaboration with TNP-RGPV enriched the event, creating opportunities for networking, mentorship, and real-world insights. 
             The guidance from alumni helped students gain clarity on career paths and industry expectations, bridging the gap between academic learning and professional realities.</p>
-            <h4>Acknowledgments</h4>
+            <br><h4>Acknowledgments</h4>
             <p>Gratitude was extended to the distinguished alumni’s, Dr. Shikha Agrawal Ma’am, faculty coordinators, the organizing committee,
-            technical team, and all attendees for making this event a success.</p>
+            technical team, and all attendees for making this event a success.</p><br>
             <h3>Future Initiatives</h3>
             <p><strong>Building on this success, The Persona plans to:</strong><br>
             - Host regular alumni interaction sessions.<br>
