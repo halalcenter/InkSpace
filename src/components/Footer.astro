@@ -1,26 +1,22 @@
 ---
+const year = new Date().getFullYear();
 ---
-<footer>
-    <p>
-  &copy; {new Date().getFullYear()} InkSpace. All rights reserved. <br />
-  GDP Project: <a href="https://gdp-livid.vercel.app/" target="_blank" rel="noopener noreferrer">Visit Here</a>
-</p>
 
+<footer style="text-align: center; padding: 20px; font-family: Arial, sans-serif;">
+  <p style="color: #333; margin-bottom: 15px;">
+    &copy; {year} InkSpace. All rights reserved.
+  </p>
+  <p style="color: #0047AB; font-weight: bold;">
+    GDP Project:
+  </p>
+  <p>
+    <a 
+      href="https://your-gdp-project-website.com" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      style="color: #0047AB; text-decoration: none; font-size: 16px; font-weight: bold;"
+    >
+      Visit Here
+    </a>
+  </p>
 </footer>
-
-<style>
-    footer {
-        text-align: center;
-        padding: 1rem;
-        background: var( --accent);
-        color: #fff;
-        margin-top: 2rem;
-        font-size: 0.9rem;
-        font-weight: 500;
-    }
-
-    footer p {
-        margin: 0;
-        padding: 0.5rem;
-    }
-</style>
