@@ -586,7 +586,7 @@ export const articles: Record<string, Article> = {
          <strong>Master Networking Basics</strong> – If you've worked with APIs or web apps, this will *dramatically* improve your debugging and backend skills.<br>
          <strong>Appreciate the Magic of Frameworks</strong> – After writing your own server, you’ll love Flask and Express even more.</p><br>
          <h2>How I Built My First Python HTTP Server</h2>
-         <p><strong>Surprisingly, Python makes it super easy to spin up a basic HTTP server:<strong></p><br>
+         <p><strong>Surprisingly, Python makes it super easy to spin up a basic HTTP server:</strong></p><br>
          <p>"from http.server import SimpleHTTPRequestHandler, HTTPServer<br><br>
          
          host = "localhost"<br>
