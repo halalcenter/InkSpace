@@ -558,5 +558,76 @@ export const articles: Record<string, Article> = {
         and planning, you can develop content that people love and deliver results. Be loyal to your form, continue experimenting, and never forget 
         what the audience needs. The online environment constantly evolves, but with imagination, you will manage to be at the top.</p>
         `
+    },
+    "my-first-http-server": {
+        title: "My First HTTP server",
+        excerpt: "Why and How I Built My First HTTP Server in Python and Why You Probably Should Too.",
+        coverImage: "https://i0.wp.com/tolustar.com/wp-content/uploads/2021/03/http.jpeg?fit=900%2C600&ssl=1",
+        contentImages: [
+            "https://img.notionusercontent.com/s3/prod-files-secure%2Ffd82d1e2-62ed-4f35-92ef-b9e36234c406%2F0bd42983-3feb-495d-b602-5531f3e2a64e%2Fimage.png/size/w=2000?exp=1739646997&sig=ArORL0bxcU8co9wMMPpV8Hv2nBxF774qD_Q56jI2IdY"
+        ],
+        author: {
+            name: "Aditya Upadhyay",
+            avatar: "https://lh3.google.com/u/2/d/1GezmqimDTRhdBGFNY5v-Fj4_3Oa-xOLj=w1867-h927-iv1",
+            role: "GDP Volunteer"
+        },
+        publishDate: "2025-02-15",
+        isLatestNews: true,
+        content: `
+        <p>Like most developers, I started web development using high-level frameworks—Flask, Express, and Next.js. These tools are amazing,
+         but they also hide the raw mechanics of how the web actually works.</p>
+        <p>Everything changed when I picked up a book on TCP/IP. Suddenly, I wasn’t just building APIs—I was seeing the web at its core:
+         packets, connections, request headers, response codes. That’s when I had a realization:<br>I had built so many web apps, but I had never actually built the web.</p>
+         <img src="https://img.notionusercontent.com/s3/prod-files-secure%2Ffd82d1e2-62ed-4f35-92ef-b9e36234c406%2F0bd42983-3feb-495d-b602-5531f3e2a64e%2Fimage.png/size/w=2000?exp=1739646997&sig=ArORL0bxcU8co9wMMPpV8Hv2nBxF774qD_Q56jI2IdY" alt="TCP/IP" />
+         <p>So, I decided to create an HTTP server from scratch in Python. No frameworks. Just the standard library and a lot of curiosity.</p><br>
+         <h2>Why You Should Build One Too</h2>
+         <p><strong>1. Understand the Web’s Core</strong> – Ever wondered what actually happens when you visit a website? Writing your own server answers that.<br>
+         <strong>Get Hands-On with HTTP</strong> – Learn how requests are received, parsed, and responded to—all without a framework holding your hand.<br>
+         <strong>Master Networking Basics</strong> – If you've worked with APIs or web apps, this will *dramatically* improve your debugging and backend skills.<br>
+         <strong>Appreciate the Magic of Frameworks</strong> – After writing your own server, you’ll love Flask and Express even more.</p><br>
+         <h2>How I Built My First Python HTTP Server</h2>
+         <p><strong>Surprisingly, Python makes it super easy to spin up a basic HTTP server:<strong></p><br>
+         <p>"from http.server import SimpleHTTPRequestHandler, HTTPServer<br><br>
+         
+         host = "localhost"<br>
+         port = 8080<br><br>
+         
+         server = HTTPServer((host, port), SimpleHTTPRequestHandler)<br>
+         print(f"Server running on http://{host}:{port}")<br>
+         server.serve_forever()"</p><br>
+         <p>Run this script, open your browser, and visit http://localhost:8080. Your Python server is now serving files from your current directory!</p><br>
+         <h2>Serving an HTML Page</h2>
+         <p>A simple server is nice, but what if we want to serve actual <strong>HTML</strong> instead of just directory files? Here’s how I did it:</p><br>
+         <p>"class CustomHandler(SimpleHTTPRequestHandler):<br>
+    def do_GET(self):<br>
+        if self.path == "/":<br>
+            self.send_response(200)<br>
+            self.send_header("Content-type", "text/html")<br>
+            self.end_headers()<br>
+            self.wfile.write(b"""<br>
+                <*html><br>
+                <*head><*title>My First Python Server<*title><*head><br>
+                <*body><br>
+                    <*h1>Hello, World!<*h1><br>
+                    <*p>Welcome to my custom Python HTTP server.<*p><br>
+                <*body><br>
+                <*html><br>
+            """)<br>
+        else:<br>
+            super().do_GET()<br><br>
+            
+            host = "localhost"<br>
+            port = 8080<br>
+            server = HTTPServer((host, port), CustomHandler)<br>
+            print(f"Server running on http://{host}:{port}")<br>
+            server.serve_forever()"</p><br>
+            <h2>The Moment of Truth</h2>
+            <p>Run the script and visit <strong>http://localhost:8080</strong> you’ll see a beautifully simple HTML page served directly from your Python server.</p><br>
+            <h2>Final Thoughts</h2>
+            <p>This small project gave me <strong>a deep appreciation for networking, HTTP, and how the web actually works</strong>. If you’ve always relied on frameworks,
+             I challenge you to take a step back and build a server from scratch.<br>
+             Because sometimes, the best way to move forward is to go back to the basics. 🚀</p>
+            `
+
     }
 };
