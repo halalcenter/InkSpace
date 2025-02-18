@@ -5,7 +5,7 @@ import { articles } from '../data/articles';
 
 // Filter and sort articles
 const filteredArticles = Object.entries(articles)
-    .filter(([slug]) => ['nexura', 'the-persona', 'code4all', 'Fibonacci SoIT', 'Google Developers Group(GDG)'].includes(slug)) // Filter by slug
+    .filter(([slug]) => ['nexura', 'the-persona', 'code4all', 'Fibonacci SoIT', 'Google Developers Group(GDG)', 'IEEE-RGPV',].includes(slug)) // Filter by slug
     .map(([slug, article]) => ({
         slug,
         ...article,
