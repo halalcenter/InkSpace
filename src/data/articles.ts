@@ -564,7 +564,7 @@ export const articles: Record<string, Article> = {
         excerpt: "Why and How I Built My First HTTP Server in Python and Why You Probably Should Too.",
         coverImage: "https://i0.wp.com/tolustar.com/wp-content/uploads/2021/03/http.jpeg?fit=900%2C600&ssl=1",
         contentImages: [
-            "https://img.notionusercontent.com/s3/prod-files-secure%2Ffd82d1e2-62ed-4f35-92ef-b9e36234c406%2F0bd42983-3feb-495d-b602-5531f3e2a64e%2Fimage.png/size/w=2000?exp=1739646997&sig=ArORL0bxcU8co9wMMPpV8Hv2nBxF774qD_Q56jI2IdY"
+            "https://lh3.google.com/u/2/d/1LhQnEmpS4Y3Co2lRo5kVkeSV6ae-JkeB=w1867-h927-iv1"
         ],
         author: {
             name: "Aditya Upadhyay",
@@ -578,7 +578,7 @@ export const articles: Record<string, Article> = {
          but they also hide the raw mechanics of how the web actually works.</p>
         <p>Everything changed when I picked up a book on TCP/IP. Suddenly, I wasn’t just building APIs—I was seeing the web at its core:
          packets, connections, request headers, response codes. That’s when I had a realization:<br>I had built so many web apps, but I had never actually built the web.</p>
-         <img src="https://img.notionusercontent.com/s3/prod-files-secure%2Ffd82d1e2-62ed-4f35-92ef-b9e36234c406%2F0bd42983-3feb-495d-b602-5531f3e2a64e%2Fimage.png/size/w=2000?exp=1739646997&sig=ArORL0bxcU8co9wMMPpV8Hv2nBxF774qD_Q56jI2IdY" alt="TCP/IP" />
+         <img src="https://lh3.google.com/u/2/d/1LhQnEmpS4Y3Co2lRo5kVkeSV6ae-JkeB=w1867-h927-iv1" alt="TCP/IP" />
          <p>So, I decided to create an HTTP server from scratch in Python. No frameworks. Just the standard library and a lot of curiosity.</p><br>
          <h2>Why You Should Build One Too</h2>
          <p><strong>1. Understand the Web’s Core</strong> – Ever wondered what actually happens when you visit a website? Writing your own server answers that.<br>
