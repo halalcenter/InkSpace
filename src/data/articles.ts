@@ -628,5 +628,57 @@ export const articles: Record<string, Article> = {
             <p>This small project gave me <strong>a deep appreciation for networking, HTTP, and how the web actually works</strong>. If you’ve always relied on frameworks,
              I challenge you to take a step back and build a server from scratch.<br>
              Because sometimes, the best way to move forward is to go back to the basics. 🚀</p>
-            `}
+            `},
+    "IEEE-RGPV": {
+        title: "Institute of Electrical and Electronics Engineering",
+        excerpt: "IEEE RGPV is a student branch dedicated to promoting research, technology, and professional development.",
+        coverImage: "https://lh3.google.com/u/2/d/1T3_wVSYIYjetzMTSm7EK92fq_rkfuLuy=w1867-h927-iv1",
+        contentImages: [
+            "https://lh3.google.com/u/2/d/1PWErze3Jqzo-4_P8B0jlgUB-FnvbeVk7=w2000-h1570-iv1",
+            "https://lh3.google.com/u/2/d/1yHrymc2xgX1CuX7pURfMLZsOMhd03aPv=w2000-h1570-iv1",
+            "https://lh3.google.com/u/2/d/1XBAlhUAQDANX0-sumd_gehB98_HaBJ46=w2000-h1570-iv1",
+            "https://engg.cambridge.edu.in/wp-content/uploads/2023/06/IEEE-scaled.jpg",
+            "https://lh3.google.com/u/2/d/19nr0RaG0dp0HFWSLHoK5zYt5TtlEF87q=w2000-h1570-iv1"
+        ],
+        author: {
+            name: "IEEE RGPV",
+            avatar: "https://lh3.google.com/u/2/d/1T3_wVSYIYjetzMTSm7EK92fq_rkfuLuy=w1867-h927-iv1",
+            role: "CLUB"
+        },
+        publishDate: "2025-02-19",
+        isLatestNews: false,
+        content: `
+        <p>IEEE RGPV is a dynamic student branch dedicated to fostering research, technological innovation,
+         and professional development among students. Our mission is to bridge the gap between academia and 
+         industry by providing a platform where students can gain practical knowledge, enhance their technical
+         skills, and connect with professionals from various fields.</p>
+         <img src="https://lh3.google.com/u/2/d/1XBAlhUAQDANX0-sumd_gehB98_HaBJ46=w2000-h1570-iv1" alt="team">
+        <p>We achieve this by organizing a diverse range of events, including workshops, seminars, hackathons, and 
+        networking sessions, all designed to equip students with the tools they need to excel in their careers. 
+        Through hands-on learning experiences and expert-led discussions, we aim to create an environment that encourages 
+        creativity, collaboration, and problem-solving.</p><br>
+        <h2>About IEEE</h2>
+        <img src="https://engg.cambridge.edu.in/wp-content/uploads/2023/06/IEEE-scaled.jpg" alt="IEEE" />
+        <p>The Institute of Electrical and Electronics Engineers is an American 501 professional association for electrical 
+        engineering, electronics engineering, and other related disciplines. The IEEE has a corporate office in New York City 
+        and an operations center in Piscataway, New Jersey. IEEE is the world's largest technical professional organization 
+        dedicated to advancing technology for the benefit of humanity.</p><br>
+        <h2>Past Events:</h2><br>
+        <h3>IEEE RGPV Orientation :</h3>
+        <p>An introductory session welcoming new members and outlining IEEE's benefits.</p>
+        <h3>IEEE Blog Competition :</h3>
+        <img src="https://lh3.google.com/u/2/d/19nr0RaG0dp0HFWSLHoK5zYt5TtlEF87q=w2000-h1570-iv1" alt="blog competition" />
+        <p>An online writing competition to encourage technical and research-based content creation.</p>
+        <h3>IEEE Department Hackathon :</h3>
+        <img src="https://lh3.google.com/u/2/d/1yHrymc2xgX1CuX7pURfMLZsOMhd03aPv=w2000-h1570-iv1" alt="IEEE hackathon" />
+        <p>A competitive online hackathon designed to foster innovation and problem-solving among students</p>
+        <h3>Eklavya :</h3>
+        <img src="https://lh3.google.com/u/2/d/1PWErze3Jqzo-4_P8B0jlgUB-FnvbeVk7=w2000-h1570-iv1" alt="EKLAVYA" />
+        <p>A flagship event designed to enhance students' technical and analytical skills.</p>
+        <h3>Medal Distribution Ceremony :</h3>
+        <p>Recognizing the achievements of outstanding participants in various IEEE events.</p>
+        <h3>Volunteers Recognition Event :</h3>
+        <p>Honoring the dedication and contributions of IEEE volunteers.</p>
+        `
+    }
 };
