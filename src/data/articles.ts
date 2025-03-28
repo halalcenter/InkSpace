@@ -697,7 +697,7 @@ export const articles: Record<string, Article> = {
         ],
         author: {
             name: "Sampurn Chouhan",
-            avatar: "",
+            avatar: "https://lh3.google.com/u/2/d/1ucjHIvhDaqwQ_yEt6akQAcyKyBlEKHQV=w2000-h4020-iv1",
             role: "GDP Volunteer"
         },
         publishDate: "2025-03-28",
