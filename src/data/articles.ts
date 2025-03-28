@@ -680,5 +680,148 @@ export const articles: Record<string, Article> = {
         <h3>Volunteers Recognition Event :</h3>
         <p>Honoring the dedication and contributions of IEEE volunteers.</p>
         `
-    }
+    },
+    "nvidia-gtc-2025": {
+        title: "Nvidia GTC 2025",
+        excerpt: "Revisit the GTC AI Conference from March 17–21 in San Jose, CA ... Discover the latest hardware, software, and applications unveiled at the conference",
+        coverImage: "https://www.crn.com/news/ai/2025/media_1fe4b97857671f8d2427509ede46236f506cceea4.jpeg?width=750&format=jpeg&optimize=medium",
+        contentImages: [
+            "https://cdn.asoworld.com/img/substation/trade/contentbcc90c823f3445c59c649778fce1b4a8.png",
+            "https://developer-blogs.nvidia.com/wp-content/uploads/2025/01/intricate-palace-rendering.png",
+            "https://image.cnbcfm.com/api/v1/image/108117811-1742323315201-gettyimages-2205211027-NVIDIA_AI.jpeg",
+            "https://www.nextplatform.com/wp-content/uploads/2023/08/nvidia-jensen-gh200-racks-logo-1030x438.jpg",
+            "https://developer-blogs.nvidia.com/wp-content/uploads/2025/03/nvidia-dynamo-gpu-planner.png",
+            "https://i.ytimg.com/vi/4I--IL-XMRU/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGFQgYihlMA8=&rs=AOn4CLAy82_Ez2ekwlQ8ig5_OHdN6Y1tng",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrZl3L_MBrAsaEHPvHU5l_3M9K4zomMqL7_NVLaYb64n2iU_qUpopzHUUy2PF2sM_NMAg&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1qDUH1caaJRHmPdUYfqN30-cb1JnRWNrGYQ&s"
+        ],
+        author: {
+            name: "Sampurn Chouhan",
+            avatar: "",
+            role: "GDP Volunteer"
+        },
+        publishDate: "2025-03-28",
+        isLatestNews: true,
+        content: `
+    <h1>1.RTX 5090</h1>
+    <img src="https://cdn.asoworld.com/img/substation/trade/contentbcc90c823f3445c59c649778fce1b4a8.png" alt="RTX 5090">
+    <h3>NVIDIA GeForce RTX 5090 – The Blackwell Powerhouse</h3>
+    <p>The <strong>RTX 5090</strong> is NVIDIA’s most powerful gaming GPU, built on the <strong>Blackwell architecture</strong>, delivering <strong>double the performance</strong> of the RTX 4090.</p>
+    <h3>What is Blackwell?</h3>
+    <p><strong>Blackwell</strong> is NVIDIA’s latest GPU architecture, succeeding <strong>Ada Lovelace</strong>. It features <strong>92 billion transistors</strong>, improved <strong>ray tracing</strong> and <strong>AI acceleration</strong>, and <strong>GDDR7 memory</strong> for faster data transfer. Named after mathematician <strong>David Blackwell</strong>, this architecture is designed for extreme gaming, AI, and professional workloads.</p>
+    <h3>Key Specs:</h3>
+    <ul>
+        <li><strong>CUDA Cores:</strong> 21,760</li>
+        <li><strong>Ray Tracing Cores:</strong> 170 (4th Gen)</li>
+        <li><strong>Tensor Cores:</strong> 680 (5th Gen)</li>
+        <li><strong>Clock Speed:</strong> 2.01 GHz (Base), 2.41 GHz (Boost)</li>
+        <li><strong>Memory:</strong> 32GB <strong>GDDR7</strong>, 512-bit</li>
+        <li><strong>TGP:</strong> 575W</li>
+    </ul>
+    <h3>Performance & Features:</h3>
+    <p>With <strong>DLSS 4</strong>, the RTX 5090 uses <strong>AI-powered frame generation</strong> and <strong>ray reconstruction</strong> for ultra-smooth gaming. It supports <strong>PCIe Gen 5</strong>, <strong>8K 165Hz displays</strong>, and <strong>faster rendering</strong> for creators.</p>
+    <h3>Pricing & Availability:</h3>
+    <p>Released on <strong>January 30, 2025</strong>, at <strong>$1,999</strong>, stock is <strong>limited</strong>. Requires a <strong>1000W+ PSU</strong> and a <strong>large case</strong> due to size and power needs.</p>
+    <p>The <strong>RTX 5090</strong> is a <strong>next-gen powerhouse</strong>, perfect for high-performance gaming and AI-driven applications.</p>
+
+    <h1>2.AI real time CGI rendering</h1>
+    <img src="https://developer-blogs.nvidia.com/wp-content/uploads/2025/01/intricate-palace-rendering.png" alt="AI Real-Time CGI Rendering">
+    <p>AI-driven real-time CGI rendering was a focal point, highlighting significant advancements in graphics technology. NVIDIA introduced the <strong>RTX Neural Shaders</strong>, which integrate small neural networks into programmable shaders to enhance image quality and performance while reducing system resource usage. This innovation enables real-time rendering of assets with cinematic-quality visuals, transforming industries like gaming and film.</p>
+    <p>Additionally, NVIDIA unveiled the <strong>"Zorah" technology demo</strong>, showcasing detailed scenes rendered in real time using technologies such as <strong>Re STIR Path Tracing</strong>, <strong>Re STIR Direct Illumination</strong>, and <strong>RTX Mega Geometry</strong>. These tools allow for the rendering of assets with dramatic detail and fidelity, bringing cinematic-quality visuals to real-time experiences.</p>
+    <p>These developments underscore NVIDIA's commitment to leveraging AI for enhancing real-time CGI rendering, offering creators tools to produce more realistic and immersive visual content across various applications.</p>
+    <h3>Why It’s Revolutionary:</h3>
+    <ul>
+        <li><strong>Real-Time Path Tracing:</strong> Film-grade visuals now run smoothly in games.</li>
+        <li><strong>AI Acceleration:</strong> Boosts performance while reducing GPU load.</li>
+        <li><strong>Lifelike Digital Humans:</strong> AI-powered characters without expensive motion capture.</li>
+        <li><strong>Faster Game Development:</strong> Instant lighting, shadows, and procedural world generation.</li>
+        <li><strong>More Accessibility:</strong> High-end CGI now available to <strong>indie developers and content creators</strong>.</li>
+    </ul>
+
+    <h1>3. Collaboration with GM(general mooters ) and HALO</h1>
+    <img src="https://image.cnbcfm.com/api/v1/image/108117811-1742323315201-gettyimages-2205211027-NVIDIA_AI.jpeg?v=1742323336&w=1480&h=833&ffmt=webp&vtcrop=y" alt="NVIDIA GM Collaboration">
+    <p><strong>NVIDIA and General Motors (GM)</strong> announced a groundbreaking collaboration to integrate <strong>AI-driven technology</strong> into vehicle development, manufacturing, and autonomous driving.</p>
+    <h3>Key Aspects of the Collaboration:</h3>
+    <ul>
+        <li><strong>AI in Manufacturing:</strong> GM will utilize <strong>NVIDIA Omniverse™</strong> to create <strong>digital twins</strong> of its assembly lines, allowing virtual simulations to optimize production efficiency and reduce downtime.</li>
+        <li><strong>Autonomous & Assisted Driving:</strong> GM will incorporate <strong>NVIDIA DRIVE AGX™</strong>, enhancing <strong>ADAS (Advanced Driver Assistance Systems)</strong> to improve self-driving capabilities and in-cabin safety.</li>
+        <li><strong>AI-Enhanced Robotics:</strong> AI-powered robots will assist in precision tasks like <strong>welding and material handling</strong>, increasing efficiency and safety in GM’s factories.</li>
+    </ul>
+    <h3>NVIDIA’s Halos Safety System – The Future of Vehicle Safety</h3>
+    <p>NVIDIA also introduced <strong>Halos</strong>, an <strong>AI-powered safety framework</strong> designed to act as a <strong>protective force field for autonomous vehicles</strong>. It combines <strong>advanced sensors, deep-learning perception models, and real-time data processing</strong> to:</p>
+    <ul>
+        <li><strong>Continuously monitor</strong> the vehicle’s surroundings.</li>
+        <li><strong>Predict and detect potential hazards</strong> before they become a threat.</li>
+        <li><strong>Enable proactive safety responses</strong>, such as automatic braking and evasive maneuvers.</li>
+    </ul>
+    <p>By integrating <strong>Halos</strong>, GM’s future vehicles will be equipped with <strong>real-time AI safety mechanisms</strong>, making roads safer and enhancing the reliability of autonomous systems.</p>
+    <p>This collaboration highlights how <strong>AI, real-time simulation, and advanced safety tech</strong> are shaping the future of mobility.</p>
+
+    <h1>4. Blackwell data centers</h1>
+    <img src="https://www.nextplatform.com/wp-content/uploads/2023/08/nvidia-jensen-gh200-racks-logo-1030x438.jpg" alt="Blackwell Data Centers">
+    <p><strong>Blackwell architecture</strong> was unveiled as a <strong>groundbreaking advancement for AI-powered data centers</strong>, designed to handle the growing demands of <strong>generative AI, deep learning, and high-performance computing</strong>.</p>
+    <h3>Why Blackwell is a Game-Changer for Data Centers</h3>
+    <h3>1. Unmatched AI Performance</h3>
+    <ul>
+        <li><strong>25x higher token processing speed</strong> and <strong>20x lower operational costs</strong> than its predecessor (Hopper).</li>
+        <li>Designed for <strong>AI reasoning models</strong>, making <strong>complex decision-making AI faster and more efficient</strong>.</li>
+    </ul>
+    <h3>2. Revolutionary Interconnect & Scalability</h3>
+    <ul>
+        <li>Introduces <strong>NV-HBI (High Bandwidth Interface)</strong> with a <strong>10 TB/s interconnect</strong> between GPU dies, ensuring ultra-fast data transfer.</li>
+        <li>Enables <strong>GB200 NVL72</strong>, a rack-scale system with <strong>72 interconnected GPUs</strong>, scaling AI computing like never before.</li>
+    </ul>
+    <h3>3. AI-Optimized Data Centers (AI Factories)</h3>
+    <ul>
+        <li>Transforms <strong>traditional data centers</strong> into <strong>AI factories</strong> that can <strong>train and deploy massive AI models</strong> efficiently.</li>
+        <li>Supports <strong>NVIDIA Spectrum-X™ Ethernet & Quantum-X800 InfiniBand</strong>, providing <strong>800 Gb/s per GPU</strong> for lightning-fast AI workloads.</li>
+    </ul>
+    <h3>4. Energy-Efficient AI Computing</h3>
+    <ul>
+        <li>Delivers <strong>higher performance at lower power consumption</strong>, addressing <strong>growing energy concerns in large-scale data centers</strong>.</li>
+        <li>Reduces the <strong>carbon footprint</strong> of AI operations while <strong>maximizing compute density</strong>.</li>
+    </ul>
+    <h3>Industry Impact & Adoption</h3>
+    <p>Tech giants and AI research firms are already <strong>deploying Blackwell-powered data centers</strong>, recognizing its potential to <strong>redefine AI processing at scale</strong>.</p>
+    <h3>Final Thoughts</h3>
+    <p>Blackwell isn’t just a faster GPU—it’s a <strong>paradigm shift</strong> in how <strong>AI, cloud computing, and data centers</strong> operate, enabling <strong>next-gen AI applications</strong> with unprecedented efficiency.</p>
+    <p>{You can read the last blog on NVidia to learn more about Blackwell }</p>
+
+    <h1>5.Introduction to DYNOMO</h1>
+    <img src="https://developer-blogs.nvidia.com/wp-content/uploads/2025/03/nvidia-dynamo-gpu-planner.png" alt="Dynamo">
+    <p>NVIDIA introduced <strong>Dynamo</strong>, named after the first electrical generators capable of delivering power for industry  an open-source, high-throughput inference framework designed to <strong>scale AI reasoning models efficiently</strong> across massive GPU clusters. The name <strong>"Dynamo"</strong> reflects its core strength: <strong>dynamic, high-speed AI inference</strong>, much like an <strong>electrical dynamo</strong> that efficiently converts energy into motion—here, <strong>powering AI computations with minimal latency and maximum efficiency</strong>.</p>
+    <h3>Key Features of NVIDIA Dynamo</h3>
+    <ul>
+        <li><strong>Disaggregated AI Serving:</strong> Splits <strong>context (prefill) and generation (decode)</strong> across different GPUs, optimizing inference speed.</li>
+        <li><strong>Dynamic GPU Scheduling:</strong> Allocates resources <strong>on demand</strong>, ensuring smooth performance even under fluctuating workloads.</li>
+        <li><strong>KV Cache-Aware Routing:</strong> Directs inference traffic <strong>to GPUs with cached data</strong>, reducing redundant computations.</li>
+        <li><strong>Accelerated Data Transfer:</strong> Uses <strong>NVIDIA Inference Transfer Library (NIXL)</strong> for <strong>faster GPU communication</strong>.</li>
+        <li><strong>Memory Optimization:</strong> <strong>Offloads cache</strong> to lower-cost memory, freeing up GPU capacity for active tasks.</li>
+    </ul>
+    <h3>Why Dynamo is a Game-Changer</h3>
+    <p>Dynamo enables <strong>30x faster inference</strong> on <strong>AI reasoning models</strong>, making large-scale AI deployment <strong>cheaper, faster, and more scalable</strong>. It is <strong>open-source</strong>, supporting frameworks like <strong>TensorRT-LLM, vLLM, and PYTorch</strong>, allowing widespread adoption in <strong>AI factories</strong> and research labs.</p>
+    <p>With <strong>Dynamo</strong>, NVIDIA is redefining <strong>AI inference efficiency</strong>, ensuring that <strong>massive generative AI models</strong> can operate <strong>at peak performance with minimal cost</strong>.</p>
+
+    <h1>6. Another step in Omniverse</h1>
+    <img src="https://i.ytimg.com/vi/4I--IL-XMRU/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGFQgYihlMA8=&rs=AOn4CLAy82_Ez2ekwlQ8ig5_OHdN6Y1tng" alt="Omniverse">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrZl3L_MBrAsaEHPvHU5l_3M9K4zomMqL7_NVLaYb64n2iU_qUpopzHUUy2PF2sM_NMAg&usqp=CAU" alt="Cosmos">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1qDUH1caaJRHmPdUYfqN30-cb1JnRWNrGYQ&s" alt="Newton">
+    <p>NVidia made a huge strides in <strong>AI, robotics, and simulation</strong> with three major innovations: <strong>Omniverse, Cosmos, and the Newton physics engine</strong>. These technologies are set to <strong>revolutionize industrial design, robotics, and autonomous systems</strong>.</p>
+    <h3>Omniverse – The Digital Twin Powerhouse</h3>
+    <p>Think of <strong>NVIDIA Omniverse™</strong> as a <strong>shared virtual world</strong> where engineers, designers, and AI systems can collaborate in <strong>real time</strong>. Built on <strong>Open USD</strong>, it lets companies <strong>create digital twins of factories, cities, and even entire supply chains</strong>. The goal? <strong>Optimize processes, reduce costs, and speed up innovation</strong> without disrupting real-world operations.</p>
+    <h3>Cosmos – AI’s Virtual Playground</h3>
+    <p><strong>NVIDIA Cosmos™</strong> is like a <strong>supercharged AI training ground</strong>. It creates <strong>ultra-realistic virtual environments</strong> where AI models—whether for robots, self-driving cars, or industrial automation—can <strong>learn and improve without real-world risks</strong>. By simulating <strong>physics-accurate scenarios</strong>, Cosmos makes AI training faster, safer, and much more scalable.</p>
+    <h3>Newton – A Game-Changer for Robots</h3>
+    <p><strong>Newton</strong> is NVIDIA’s new <strong>open-source physics engine</strong> built for robotics. Developed with <strong>Google DeepMind and Disney Research</strong>, it helps robots <strong>simulate and learn real-world interactions more accurately</strong>. Whether it’s a robotic arm assembling a car or a humanoid learning to walk, Newton ensures that AI-powered machines can <strong>train in realistic, physics-based environments</strong> before being deployed in the real world.</p>
+    <p>A standout moment was the introduction of <strong>"Blue"</strong>, an AI-powered robot developed collaboratively by <strong>NVIDIA</strong>, <strong>Disney Research</strong>, and <strong>Google DeepMind</strong>. Resembling a character from the "Star Wars" universe, Blue captivated the audience with its lifelike movements and engaging interactions</p>
+    <p><strong>Disney Research, and Google DeepMind</strong> announced a groundbreaking collaboration focused on <strong>AI-powered robotics and simulation</strong>.</p>
+    <h3>What They’re Building Together:</h3>
+    <ul>
+        <li><strong>Lifelike AI Robots</strong> – Like <strong>"Blue,"</strong> an expressive, interactive robot showcasing advanced motion and responsiveness.</li>
+        <li><strong>Newton Physics Engine</strong> – A <strong>realistic physics-based AI training system</strong> for robots, co-developed to improve robotic learning.</li>
+        <li><strong>Generative AI for Animation & Simulation</strong> – AI-driven tools to <strong>enhance animation, gaming, and virtual characters</strong>, blending real-world physics with digital creativity.</li>
+    </ul>
+    <h3>Why This Matters</h3>
+    <p>With <strong>Omniverse, Cosmos, and Newton</strong>, NVIDIA is <strong>pushing AI and robotics into a future where digital and real-world systems blend seamlessly</strong>. Companies can now <strong>train AI smarter, build robots faster, and optimize industries like never before</strong>—all without trial and error in the real world</p>
+        `
 };
