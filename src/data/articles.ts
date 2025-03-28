@@ -824,5 +824,5 @@ export const articles: Record<string, Article> = {
     <h3>Why This Matters</h3>
     <p>With <strong>Omniverse, Cosmos, and Newton</strong>, NVIDIA is <strong>pushing AI and robotics into a future where digital and real-world systems blend seamlessly</strong>. Companies can now <strong>train AI smarter, build robots faster, and optimize industries like never before</strong>—all without trial and error in the real world</p>
         `
-    }
+    },
 };
